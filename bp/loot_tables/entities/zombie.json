@@ -63,6 +63,16 @@
                     "type": "item",
                     "name": "cda002:zombie",
                     "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "cda002:husk",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "cda002:zombie_villager",
+                    "weight": 1
                 }
             ],
             "conditions": [

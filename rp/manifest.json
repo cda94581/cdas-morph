@@ -1,23 +1,23 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "Morph into any mob that you kill!\nMorphing will have bugs; please report any and all bugs.\n\n§lMade by §ccda94581",
-		"name": "Cda's Morph v0.0.1 [RP]",
+		"description": "§lRead the Description before using§r\nMorph into any mob that you kill!\nMorphing will have bugs; please report any and all bugs.\n\n§lMade by §ccda94581§r\n\nBefore you say something along the lines of \"This doesn't work\", make sure \"Holiday Creator Features\" is enabled. If that fails to work, contact me at the links found in the description of https://mcpedl.com/cdas-morph/ Spamming angry emojis doesn't help me help you. Before you say something along the lines of \"Please add...\" on a place other than MCPEDL, again, contact me at the links found at the website above. I can't help you on MCPE Add-ons, I can't help you on whatever other weird website this has popped up to. I can only help you on MCPEDL and the links I posted in the description.",
+		"name": "Cda's Morph v0.0.2 [RP]",
 		"uuid": "bbc91fc1-aff3-457b-bf2c-cbec330fd188",
-		"min_engine_version": [ 1, 16, 210 ],
-		"version": [ 0, 0, 1 ]
+		"min_engine_version": [ 1, 16, 201 ],
+		"version": [ 0, 0, 2 ]
 	},
 	"modules": [
 		{
 			"type": "resources",
 			"uuid": "b30e8905-d1ad-4f51-99e1-392998d886db",
-			"version": [ 0, 0, 1 ]
+			"version": [ 0, 0, 2 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "252c6750-6c0a-4131-8e86-201b6aa37605",
-			"version": [ 0, 0, 1 ]
+			"version": [ 0, 0, 2 ]
 		}
 	],
 	"metadata": {

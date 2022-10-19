@@ -859,7 +859,7 @@
           ]
         },
         "minecraft:physics": {
-          "has_gravity": false
+          "has_gravity": true
         },
         "minecraft:pushable": {
           "is_pushable": true,

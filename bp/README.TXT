@@ -1,24 +1,24 @@
-Cda's Morph Add-on brings you the morph mod from Java Edition over to Bedrock
-Edition. You can currently morph into any hostile mob as listed by MC Gamepedia
+Cda's Morph Add-on brings you the morph mod from Java Edition over to Bedrock Edition. You can currently morph into any hostile mob as listed by MC Gamepedia
 
-THIS ADD-ON IS IN ALPHA AND MAY BE BUGGY THIS ADD-ON REQUIRES "HOLIDAY CREATOR
-FEATURES" TO BE ENABLED
+THIS ADD-ON IS IN ALPHA AND MAY BE BUGGY
+THIS ADD-ON REQUIRES "HOLIDAY CREATOR FEATURES" TO BE ENABLED
 
 Please also note this add-on modifies the Vanilla Player Files, which means
 many packs will not be compatible with this
 
 Some mobs are hidden due to many bugs as listed below
 
-WIP Reasons:
-Blaze - Only renders head and 1 'leg'
-Elder Guardian - Doesn't render spikes correctly
-Ghast - Visual size too small
-Guardian - Doesn't render spikes correctly
-Silverfish - Most of body renders incorrectly
-Slime - Doesn't render like it's supposed to, looks more solid than it should
-Stray - Doesn't render with outer layer
-Vex - Oversized
-Zombie Villager - Doesn't render with outer layer
+WIP Reasons - https://github.com/cda94581/Community_Collabs/issues?q=is%3Aopen+is%3Aissue+label%3A%22%E2%9A%A0+Bug%22+label%3A%22%F0%9F%A7%9F%E2%80%8D%E2%99%82%EF%B8%8F+Cda%27s+Morph+Add-on%22
+#16 Blaze only renders head and 1 'leg'
+#25 Blaze doesn't render
+#17 Elder Guardian doesn't render spikes correctly
+#18 Ghast visual size too small
+#19 Guardian doesn't render spikes correctly
+#20 Most of Silverfish body renders incorrectly
+#21 Slime doesn't render like it's supposed to, looks more solid than it should
+#22 Stray doesn't render with outer layer
+#23 Vex oversized
+#24 Zombie Villager doesn't render with outer layer
 
 You can still unlock these by running "/event entity @s cda002:remove", followed
 by "/event entity @s cda002:" and then one of the mobs listed above, replacing
@@ -31,22 +31,28 @@ License: This pack is provided to you under the CC-BY-SA-4.0 License, which
 allows you to modify, distribute, and more as long as you give proper credit to
 the owner and use the same license (CC-BY-SA-4.0)
 
-Known Issues:
-Lack of movement animations
-Sometimes will not burn in daylight/lava for entities that should burn, because
-others have "minecraft:fire_immune" component, relogging fixes this
-Camera won't adjust based on entity size
-Held items may render in the wrong spot
-Mobs like zombie won't hold out their arms
-Magma Cube/Slime can only be baby size
-Ravagers do not break blocks
-Weird crouching animation
-Husks drop zombie morph instead of husk morph
-Piglin brutes don't drop morph
-Vexes don't drop morph
-Zombie villagers drop zombie morph instead of zombie villager morph
+Known Issues - https://github.com/cda94581/Community_Collabs/issues?q=is%3Aopen+is%3Aissue+label%3A%22%E2%9A%A0+Bug%22+label%3A%22%F0%9F%A7%9F%E2%80%8D%E2%99%82%EF%B8%8F+Cda%27s+Morph+Add-on%22
+#4 Lack of movement animations
+#5 Sometimes will not burn in daylight/lava for entities that should burn, because others have "minecraft:fire_immune" component, relogging fixes this
+#6 Camera won't adjust based on entity size
+#7 Held items may render in the wrong spot
+#8 Mobs like zombie won't hold out their arms
+#9 Magma Cube/Slime can only be baby size
+#10 Ravagers do not break blocks
+#11 Weird crouching animation
+#13 Piglin brutes don't drop morph
+
+If you would like to help report issues, suggest features, and more, head over to https://github.com/cda94581/Community_Collabs/tree/main/Add-ons/Cda's%20Morph to see what you can do!
 
 Changelog
+v0.0.2 - 2021/03/24 (YYYY/MM/DD)
+Updated README to show known issues numbers
+Husks now drop morph (#12)
+Vexes now drop morph (#14)
+Zombie villagers now drop morph (#15)
+TEMPORARY FIX: Phantoms won't float forever (#27)
+Supports 1.16.201 for MCPEDL reasons
+---
 v0.0.1 - 2021/03/16 (YYYY/MM/DD)
 Added all hostile mobs as listed by MC Gamepedia
 Added loot tables
