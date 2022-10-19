@@ -1,0 +1,394 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cda002.player.morph": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "player": "q.get_equipped_item_name(0) == 'player' && q.is_jumping && q.is_sneaking" },
+						{ "blaze": "q.get_equipped_item_name(0) == 'blaze' && q.is_jumping && q.is_sneaking" },
+						{ "creeper": "q.get_equipped_item_name(0) == 'creeper' && q.is_jumping && q.is_sneaking" },
+						{ "drowned": "q.get_equipped_item_name(0) == 'drowned' && q.is_jumping && q.is_sneaking" },
+						{ "elder_guardian": "q.get_equipped_item_name(0) == 'elder_guardian' && q.is_jumping && q.is_sneaking" },
+						{ "endermite": "q.get_equipped_item_name(0) == 'endermite' && q.is_jumping && q.is_sneaking" },
+						{ "evoker": "q.get_equipped_item_name(0) == 'evoker' && q.is_jumping && q.is_sneaking" },
+						{ "ghast": "q.get_equipped_item_name(0) == 'ghast' && q.is_jumping && q.is_sneaking" },
+						{ "guardian": "q.get_equipped_item_name(0) == 'guardian' && q.is_jumping && q.is_sneaking" },
+						{ "hoglin": "q.get_equipped_item_name(0) == 'hoglin' && q.is_jumping && q.is_sneaking" },
+						{ "husk": "q.get_equipped_item_name(0) == 'husk' && q.is_jumping && q.is_sneaking" },
+						{ "magma_cube": "q.get_equipped_item_name(0) == 'magma_cube' && q.is_jumping && q.is_sneaking" },
+						{ "phantom": "q.get_equipped_item_name(0) == 'phantom' && q.is_jumping && q.is_sneaking" },
+						{ "piglin_brute": "q.get_equipped_item_name(0) == 'piglin_brute' && q.is_jumping && q.is_sneaking" },
+						{ "pillager": "q.get_equipped_item_name(0) == 'pillager' && q.is_jumping && q.is_sneaking" },
+						{ "ravager": "q.get_equipped_item_name(0) == 'ravager' && q.is_jumping && q.is_sneaking" },
+						{ "shulker": "q.get_equipped_item_name(0) == 'shulker' && q.is_jumping && q.is_sneaking" },
+						{ "silverfish": "q.get_equipped_item_name(0) == 'silverfish' && q.is_jumping && q.is_sneaking" },
+						{ "skeleton": "q.get_equipped_item_name(0) == 'skeleton' && q.is_jumping && q.is_sneaking" },
+						{ "slime": "q.get_equipped_item_name(0) == 'slime' && q.is_jumping && q.is_sneaking" },
+						{ "stray": "q.get_equipped_item_name(0) == 'stray' && q.is_jumping && q.is_sneaking" },
+						{ "vex": "q.get_equipped_item_name(0) == 'vex' && q.is_jumping && q.is_sneaking" },
+						{ "vindicator": "q.get_equipped_item_name(0) == 'vindicator' && q.is_jumping && q.is_sneaking" },
+						{ "witch": "q.get_equipped_item_name(0) == 'witch' && q.is_jumping && q.is_sneaking" },
+						{ "wither_skeleton": "q.get_equipped_item_name(0) == 'wither_skeleton' && q.is_jumping && q.is_sneaking" },
+						{ "zoglin": "q.get_equipped_item_name(0) == 'zoglin' && q.is_jumping && q.is_sneaking" },
+						{ "zombie": "q.get_equipped_item_name(0) == 'zombie' && q.is_jumping && q.is_sneaking" },
+						{ "zombie_villager": "q.get_equipped_item_name(0) == 'zombie_villager' && q.is_jumping && q.is_sneaking" },
+						{ "bee": "q.get_equipped_item_name(0) == 'bee' && q.is_jumping && q.is_sneaking" },
+						{ "cave_spider": "q.get_equipped_item_name(0) == 'cave_spider' && q.is_jumping && q.is_sneaking" },
+						{ "dolphin": "q.get_equipped_item_name(0) == 'dolphin' && q.is_jumping && q.is_sneaking" },
+						{ "enderman": "q.get_equipped_item_name(0) == 'enderman' && q.is_jumping && q.is_sneaking" },
+						{ "iron_golem": "q.get_equipped_item_name(0) == 'iron_golem' && q.is_jumping && q.is_sneaking" },
+						{ "llama": "q.get_equipped_item_name(0) == 'llama' && q.is_jumping && q.is_sneaking" },
+						{ "piglin": "q.get_equipped_item_name(0) == 'piglin' && q.is_jumping && q.is_sneaking" },
+						{ "panda": "q.get_equipped_item_name(0) == 'panda' && q.is_jumping && q.is_sneaking" },
+						{ "polar_bear": "q.get_equipped_item_name(0) == 'polar_bear' && q.is_jumping && q.is_sneaking" },
+						{ "spider": "q.get_equipped_item_name(0) == 'spider' && q.is_jumping && q.is_sneaking" },
+						{ "wolf": "q.get_equipped_item_name(0) == 'wolf' && q.is_jumping && q.is_sneaking" },
+						{ "zombified_piglin": "q.get_equipped_item_name(0) == 'zombified_piglin' && q.is_jumping && q.is_sneaking" },
+						{ "bat": "q.get_equipped_item_name(0) == 'bat' && q.is_jumping && q.is_sneaking" },
+						{ "cat": "q.get_equipped_item_name(0) == 'cat' && q.is_jumping && q.is_sneaking" },
+						{ "chicken": "q.get_equipped_item_name(0) == 'chicken' && q.is_jumping && q.is_sneaking" },
+						{ "cod": "q.get_equipped_item_name(0) == 'cod' && q.is_jumping && q.is_sneaking" },
+						{ "cow": "q.get_equipped_item_name(0) == 'cow' && q.is_jumping && q.is_sneaking" },
+						{ "donkey": "q.get_equipped_item_name(0) == 'donkey' && q.is_jumping && q.is_sneaking" },
+						{ "fox": "q.get_equipped_item_name(0) == 'fox' && q.is_jumping && q.is_sneaking" },
+						{ "horse": "q.get_equipped_item_name(0) == 'horse' && q.is_jumping && q.is_sneaking" },
+						{ "mooshroom": "q.get_equipped_item_name(0) == 'mooshroom' && q.is_jumping && q.is_sneaking" },
+						{ "mule": "q.get_equipped_item_name(0) == 'mule' && q.is_jumping && q.is_sneaking" },
+						{ "ocelot": "q.get_equipped_item_name(0) == 'ocelot' && q.is_jumping && q.is_sneaking" },
+						{ "parrot": "q.get_equipped_item_name(0) == 'parrot' && q.is_jumping && q.is_sneaking" },
+						{ "pig": "q.get_equipped_item_name(0) == 'pig' && q.is_jumping && q.is_sneaking" },
+						{ "pufferfish": "q.get_equipped_item_name(0) == 'pufferfish' && q.is_jumping && q.is_sneaking" },
+						{ "rabbit": "q.get_equipped_item_name(0) == 'rabbit' && q.is_jumping && q.is_sneaking" },
+						{ "salmon": "q.get_equipped_item_name(0) == 'salmon' && q.is_jumping && q.is_sneaking" },
+						{ "sheep": "q.get_equipped_item_name(0) == 'sheep' && q.is_jumping && q.is_sneaking" },
+						{ "skeleton_horse": "q.get_equipped_item_name(0) == 'skeleton_horse' && q.is_jumping && q.is_sneaking" },
+						{ "snow_golem": "q.get_equipped_item_name(0) == 'snow_golem' && q.is_jumping && q.is_sneaking" },
+						{ "squid": "q.get_equipped_item_name(0) == 'squid' && q.is_jumping && q.is_sneaking" },
+						{ "strider": "q.get_equipped_item_name(0) == 'strider' && q.is_jumping && q.is_sneaking" },
+						{ "tropical_fish": "q.get_equipped_item_name(0) == 'tropical_fish' && q.is_jumping && q.is_sneaking" },
+						{ "turtle": "q.get_equipped_item_name(0) == 'turtle' && q.is_jumping && q.is_sneaking" },
+						{ "villager": "q.get_equipped_item_name(0) == 'villager' && q.is_jumping && q.is_sneaking" },
+						{ "wandering_trader": "q.get_equipped_item_name(0) == 'wandering_trader' && q.is_jumping && q.is_sneaking" },
+						{ "ender_dragon": "q.get_equipped_item_name(0) == 'ender_dragon' && q.is_jumping && q.is_sneaking" },
+						{ "wither": "q.get_equipped_item_name(0) == 'wither' && q.is_jumping && q.is_sneaking" },
+						{ "agent": "q.get_equipped_item_name(0) == 'agent' && q.is_jumping && q.is_sneaking" },
+						{ "npc": "q.get_equipped_item_name(0) == 'npc' && q.is_jumping && q.is_sneaking" },
+						{ "axolotl": "q.get_equipped_item_name(0) == 'axolotl' && q.is_jumping && q.is_sneaking" },
+						{ "glow_squid": "q.get_equipped_item_name(0) == 'glow_squid' && q.is_jumping && q.is_sneaking" },
+						{ "goat": "q.get_equipped_item_name(0) == 'goat' && q.is_jumping && q.is_sneaking" }
+					]
+				},
+				"player": {
+					"on_entry": [ "/function cda002/player" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'player' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"blaze": {
+					"on_entry": [ "/function cda002/blaze" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'blaze' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"creeper": {
+					"on_entry": [ "/function cda002/creeper" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'creeper' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"drowned": {
+					"on_entry": [ "/function cda002/drowned" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'drowned' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"elder_guardian": {
+					"on_entry": [ "/function cda002/elder_guardian" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'elder_guardian' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"endermite": {
+					"on_entry": [ "/function cda002/endermite" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'endermite' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"evoker": {
+					"on_entry": [ "/function cda002/evoker" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'evoker' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"ghast": {
+					"on_entry": [ "/function cda002/ghast" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'ghast' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"guardian": {
+					"on_entry": [ "/function cda002/guardian" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'guardian' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"hoglin": {
+					"on_entry": [ "/function cda002/hoglin" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'hoglin' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"husk": {
+					"on_entry": [ "/function cda002/husk" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'husk' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"magma_cube": {
+					"on_entry": [ "/function cda002/magma_cube" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'magma_cube' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"phantom": {
+					"on_entry": [ "/function cda002/phantom" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'phantom' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"piglin_brute": {
+					"on_entry": [ "/function cda002/piglin_brute" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'piglin_brute' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"pillager": {
+					"on_entry": [ "/function cda002/pillager" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'pillager' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"ravager": {
+					"on_entry": [ "/function cda002/ravager" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'ravager' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"shulker": {
+					"on_entry": [ "/function cda002/shulker" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'shulker' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"silverfish": {
+					"on_entry": [ "/function cda002/silverfish" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'silverfish' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"skeleton": {
+					"on_entry": [ "/function cda002/skeleton" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'skeleton' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"slime": {
+					"on_entry": [ "/function cda002/slime" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'slime' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"stray": {
+					"on_entry": [ "/function cda002/stray" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'stray' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"vex": {
+					"on_entry": [ "/function cda002/vex" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'vex' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"vindicator": {
+					"on_entry": [ "/function cda002/vindicator" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'vindicator' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"witch": {
+					"on_entry": [ "/function cda002/witch" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'witch' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"wither_skeleton": {
+					"on_entry": [ "/function cda002/wither_skeleton" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'wither_skeleton' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"zoglin": {
+					"on_entry": [ "/function cda002/zoglin" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'zoglin' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"zombie": {
+					"on_entry": [ "/function cda002/zombie" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'zombie' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"zombie_villager": {
+					"on_entry": [ "/function cda002/zombie_villager" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'zombie_villager' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"bee": {
+					"on_entry": [ "/function cda002/bee" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'bee' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"cave_spider": {
+					"on_entry": [ "/function cda002/cave_spider" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'cave_spider' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"dolphin": {
+					"on_entry": [ "/function cda002/dolphin" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'dolphin' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"enderman": {
+					"on_entry": [ "/function cda002/enderman" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'enderman' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"iron_golem": {
+					"on_entry": [ "/function cda002/iron_golem" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'iron_golem' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"llama": {
+					"on_entry": [ "/function cda002/llama" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'llama' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"piglin": {
+					"on_entry": [ "/function cda002/piglin" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'piglin' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"panda": {
+					"on_entry": [ "/function cda002/panda" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'panda' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"polar_bear": {
+					"on_entry": [ "/function cda002/polar_bear" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'polar_bear' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"spider": {
+					"on_entry": [ "/function cda002/spider" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'spider' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"wolf": {
+					"on_entry": [ "/function cda002/wolf" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'wolf' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"zombified_piglin": {
+					"on_entry": [ "/function cda002/zombified_piglin" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'zombified_piglin' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"bat": {
+					"on_entry": [ "/function cda002/bat" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'bat' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"cat": {
+					"on_entry": [ "/function cda002/cat" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'cat' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"chicken": {
+					"on_entry": [ "/function cda002/chicken" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'chicken' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"cod": {
+					"on_entry": [ "/function cda002/cod" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'cod' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"cow": {
+					"on_entry": [ "/function cda002/cow" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'cow' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"donkey": {
+					"on_entry": [ "/function cda002/donkey" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'donkey' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"fox": {
+					"on_entry": [ "/function cda002/fox" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'fox' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"horse": {
+					"on_entry": [ "/function cda002/horse" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'horse' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"mooshroom": {
+					"on_entry": [ "/function cda002/mooshroom" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'mooshroom' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"mule": {
+					"on_entry": [ "/function cda002/mule" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'mule' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"ocelot": {
+					"on_entry": [ "/function cda002/ocelot" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'ocelot' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"parrot": {
+					"on_entry": [ "/function cda002/parrot" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'parrot' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"pig": {
+					"on_entry": [ "/function cda002/pig" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'pig' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"pufferfish": {
+					"on_entry": [ "/function cda002/pufferfish" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'pufferfish' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"rabbit": {
+					"on_entry": [ "/function cda002/rabbit" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'rabbit' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"salmon": {
+					"on_entry": [ "/function cda002/salmon" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'salmon' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"sheep": {
+					"on_entry": [ "/function cda002/sheep" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'sheep' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"skeleton_horse": {
+					"on_entry": [ "/function cda002/skeleton_horse" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'skeleton_horse' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"snow_golem": {
+					"on_entry": [ "/function cda002/snow_golem" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'snow_golem' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"squid": {
+					"on_entry": [ "/function cda002/squid" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'squid' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"strider": {
+					"on_entry": [ "/function cda002/strider" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'strider' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"tropical_fish": {
+					"on_entry": [ "/function cda002/tropical_fish" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'tropical_fish' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"turtle": {
+					"on_entry": [ "/function cda002/turtle" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'turtle' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"villager": {
+					"on_entry": [ "/function cda002/villager" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'villager' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"wandering_trader": {
+					"on_entry": [ "/function cda002/wandering_trader" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'wandering_trader' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"ender_dragon": {
+					"on_entry": [ "/function cda002/ender_dragon" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'ender_dragon' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"wither": {
+					"on_entry": [ "/function cda002/wither" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'wither' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"agent": {
+					"on_entry": [ "/function cda002/agent" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'agent' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"npc": {
+					"on_entry": [ "/function cda002/npc" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'npc' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"axolotl": {
+					"on_entry": [ "/function cda002/axolotl" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'axolotl' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"glow_squid": {
+					"on_entry": [ "/function cda002/glow_squid" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'glow_squid' || !q.is_jumping || !q.is_sneaking" }]
+				},
+				"goat": {
+					"on_entry": [ "/function cda002/goat" ],
+					"transitions": [{ "default": "q.get_equipped_item_name(0) != 'goat' || !q.is_jumping || !q.is_sneaking" }]
+				}
+			}
+		},
+		"controller.animation.cda002.player.abilities.fire_immune": {
+			"initial_state": "default",
+			"states": {
+				"default": { "transitions": [{ "fire_immune": "q.variant == 1 || q.variant == 7 || q.variant == 11 || q.variant == 21 || q.variant == 24 || q.variant == 25 || q.variant == 39 || q.variant == 60 || q.variant == 65 || q.variant == 66 || q.variant == 67 || q.variant == 68" }] },
+				"fire_immune": {
+					"animations": [ "cda002_player_abilities_fire-immune" ],
+					"transitions": [{ "default": "q.variant != 1 && q.variant != 7 && q.variant != 11 && q.variant != 21 && q.variant != 24 && q.variant != 25 && q.variant != 39 && q.variant != 60 && q.variant != 65 && q.variant != 66 && q.variant != 67 && q.variant != 68" }]
+				}
+			}
+		},
+		"controller.animation.cda002.player.abilities.fly": {
+			"initial_state": "default",
+			"states": {
+				"default": { "transitions": [{ "fly": "q.variant == 1 || q.variant == 7 || q.variant == 12 || q.variant == 21 || q.variant == 28 || q.variant == 40 || q.variant == 51 || q.variant == 65 || q.variant == 66" }] },
+				"fly": {
+					"animations": [ "cda002_player_abilities_fly" ],
+					"transitions": [{ "default": "q.variant != 1 && q.variant != 7 && q.variant != 12 && q.variant != 21 && q.variant != 28 && q.variant != 40 && q.variant != 51 && q.variant != 65 && q.variant != 66" }]
+				}
+			}
+		}
+	}
+}

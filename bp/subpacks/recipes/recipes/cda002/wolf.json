@@ -1,18 +1,1 @@
-{
-	"format_version": "1.12.0",
-	"minecraft:recipe_shapeless": {
-		"description": {
-			"identifier": "cda002:wolf"
-		},
-		"tags": [ "crafting_table" ],
-		"ingredients": [
-			{
-				"item": "minecraft:bone",
-				"count": 1
-			}
-		],
-		"result": {
-			"item": "cda002:wolf"
-		}
-	}
-}
+{"format_version":"1.12.0","minecraft:recipe_shapeless":{"description":{"identifier":"cda002:wolf"},"tags":["crafting_table"],"ingredients":[{"item":"minecraft:bone","count":1}],"result":{"item":"cda002:wolf"}}}

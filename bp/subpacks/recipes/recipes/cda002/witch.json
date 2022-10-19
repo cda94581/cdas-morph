@@ -1,18 +1,1 @@
-{
-	"format_version": "1.12.0",
-	"minecraft:recipe_shapeless": {
-		"description": {
-			"identifier": "cda002:witch"
-		},
-		"tags": [ "crafting_table" ],
-		"ingredients": [
-			{
-				"item": "minecraft:stick",
-				"count": 1
-			}
-		],
-		"result": {
-			"item": "cda002:witch"
-		}
-	}
-}
+{"format_version":"1.12.0","minecraft:recipe_shapeless":{"description":{"identifier":"cda002:witch"},"tags":["crafting_table"],"ingredients":[{"item":"minecraft:stick","count":1}],"result":{"item":"cda002:witch"}}}

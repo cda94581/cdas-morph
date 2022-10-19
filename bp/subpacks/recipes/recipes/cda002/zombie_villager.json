@@ -1,18 +1,1 @@
-{
-	"format_version": "1.12.0",
-	"minecraft:recipe_shapeless": {
-		"description": {
-			"identifier": "cda002:zombie_villager"
-		},
-		"tags": [ "crafting_table" ],
-		"ingredients": [
-			{
-				"item": "minecraft:rotten_flesh",
-				"count": 1
-			}
-		],
-		"result": {
-			"item": "cda002:zombie_villager"
-		}
-	}
-}
+{"format_version":"1.12.0","minecraft:recipe_shapeless":{"description":{"identifier":"cda002:zombie_villager"},"tags":["crafting_table"],"ingredients":[{"item":"minecraft:rotten_flesh","count":1}],"result":{"item":"cda002:zombie_villager"}}}
