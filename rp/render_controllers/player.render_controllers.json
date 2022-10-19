@@ -73,7 +73,10 @@
             "Texture.cda002_ender_dragon",
             "Texture.cda002_wither",
             "Texture.cda002_agent",
-            "Texture.cda002_npc"
+            "Texture.cda002_npc",
+            "Texture.cda002_axolotl",
+            "Texture.cda002_glow_squid",
+            "Texture.cda002_goat"
           ]
         },
         "materials": {
@@ -146,7 +149,10 @@
             "Material.cda002_ender_dragon",
             "Material.cda002_wither",
             "Material.cda002_agent",
-            "Material.cda002_npc"
+            "Material.cda002_npc",
+            "Material.cda002_axolotl",
+            "Material.cda002_glow_squid",
+            "Material.cda002_goat"
           ]
         },
         "geometries": {
@@ -219,7 +225,10 @@
             "Geometry.cda002_ender_dragon",
             "Geometry.cda002_wither",
             "Geometry.cda002_agent",
-            "Geometry.cda002_npc"
+            "Geometry.cda002_npc",
+            "Geometry.cda002_axolotl",
+            "Geometry.cda002_glow_squid",
+            "Geometry.cda002_goat"
           ]
         }
       },
@@ -306,7 +315,10 @@
             "Texture.cda002_ender_dragon",
             "Texture.cda002_wither",
             "Texture.cda002_agent",
-            "Texture.cda002_npc"
+            "Texture.cda002_npc",
+            "Texture.cda002_axolotl",
+            "Texture.cda002_glow_squid",
+            "Texture.cda002_goat"
           ]
         },
         "materials": {
@@ -379,7 +391,10 @@
             "Material.cda002_ender_dragon",
             "Material.cda002_wither",
             "Material.cda002_agent",
-            "Material.cda002_npc"
+            "Material.cda002_npc",
+            "Material.cda002_axolotl",
+            "Material.cda002_glow_squid",
+            "Material.cda002_goat"
           ]
         },
         "geometries": {
@@ -452,7 +467,10 @@
             "Geometry.cda002_ender_dragon",
             "Geometry.cda002_wither",
             "Geometry.cda002_agent",
-            "Geometry.cda002_npc"
+            "Geometry.cda002_npc",
+            "Geometry.cda002_axolotl",
+            "Geometry.cda002_glow_squid",
+            "Geometry.cda002_goat"
           ]
         }
       },
@@ -546,7 +564,10 @@
             "Texture.cda002_ender_dragon",
             "Texture.cda002_wither",
             "Texture.cda002_agent",
-            "Texture.cda002_npc"
+            "Texture.cda002_npc",
+            "Texture.cda002_axolotl",
+            "Texture.cda002_glow_squid",
+            "Texture.cda002_goat"
           ]
         },
         "materials": {
@@ -619,7 +640,10 @@
             "Material.cda002_ender_dragon",
             "Material.cda002_wither",
             "Material.cda002_agent",
-            "Material.cda002_npc"
+            "Material.cda002_npc",
+            "Material.cda002_axolotl",
+            "Material.cda002_glow_squid",
+            "Material.cda002_goat"
           ]
         },
         "geometries": {
@@ -692,7 +716,10 @@
             "Geometry.cda002_ender_dragon",
             "Geometry.cda002_wither",
             "Geometry.cda002_agent",
-            "Geometry.cda002_npc"
+            "Geometry.cda002_npc",
+            "Geometry.cda002_axolotl",
+            "Geometry.cda002_glow_squid",
+            "Geometry.cda002_goat"
           ]
         }
       },
@@ -718,7 +745,8 @@
             "Texture.cda002_llama_decor_none",
             "Texture.cda002_chicken",
             "Texture.cda002_snow_golem",
-            "Texture.cda002_villager_plains"
+            "Texture.cda002_villager_plains",
+            "Texture.cda002_axolotl"
           ]
         },
         "geometries": {
@@ -731,7 +759,8 @@
             "Geometry.cda002_llama",
             "Geometry.cda002_chicken",
             "Geometry.cda002_snow_golem",
-            "Geometry.cda002_villager"
+            "Geometry.cda002_villager",
+            "Geometry.cda002_axolotl"
           ]
         }
       },
@@ -745,7 +774,9 @@
         { "*": "query.mark_variant == 5 ? Material.cda002_llama" },
         { "leg": "query.mark_variant == 6 ? Material.cda002_chicken_legs" },
         { "head": "query.mark_variant == 7 ? Material.cda002_snow_golem_head" },
-        { "*": "query.mark_variant == 8 ? Material.cda002_villager" }
+        { "*": "query.mark_variant == 8 ? Material.cda002_villager" },
+        { "*arm": "query.mark_variant == 9 ? Material.cda002_axolotl_limbs" },
+        { "*leg": "query.mark_variant == 9 ? Material.cda002_axolotl_limbs" }
       ],
       "textures": [ "Array.textures[query.mark_variant]" ],
       "part_visibility": [
@@ -768,7 +799,8 @@
             "Texture.cda002_llama_decor_none",
             "Texture.cda002_chicken",
             "Texture.cda002_snow_golem",
-            "Texture.cda002_villager_plains"
+            "Texture.cda002_villager_plains",
+            "Texture.cda002_axolotl"
           ]
         },
         "geometries": {
@@ -781,7 +813,8 @@
             "Geometry.cda002_llama",
             "Geometry.cda002_chicken",
             "Geometry.cda002_snow_golem",
-            "Geometry.cda002_villager"
+            "Geometry.cda002_villager",
+            "Geometry.cda002_axolotl"
           ]
         }
       },
@@ -795,7 +828,9 @@
         { "*": "query.mark_variant == 5 ? Material.cda002_llama" },
         { "leg": "query.mark_variant == 6 ? Material.cda002_chicken_legs" },
         { "head": "query.mark_variant == 7 ? Material.cda002_snow_golem_head" },
-        { "*": "query.mark_variant == 8 ? Material.cda002_villager" }
+        { "*": "query.mark_variant == 8 ? Material.cda002_villager" },
+        { "*arm": "query.mark_variant == 9 ? Material.cda002_axolotl_limbs" },
+        { "*leg": "query.mark_variant == 9 ? Material.cda002_axolotl_limbs" }
       ],
       "textures": [ "Array.textures[query.mark_variant]" ],
       "part_visibility": [
@@ -825,7 +860,8 @@
             "Texture.cda002_llama_decor_none",
             "Texture.cda002_chicken",
             "Texture.cda002_snow_golem",
-            "Texture.cda002_villager_plains"
+            "Texture.cda002_villager_plains",
+            "Texture.cda002_axolotl"
           ]
         },
         "geometries": {
@@ -838,7 +874,8 @@
             "Geometry.cda002_llama",
             "Geometry.cda002_chicken",
             "Geometry.cda002_snow_golem",
-            "Geometry.cda002_villager"
+            "Geometry.cda002_villager",
+            "Geometry.cda002_axolotl"
           ]
         }
       },
@@ -852,7 +889,9 @@
         { "*": "query.mark_variant == 5 ? Material.cda002_llama" },
         { "leg": "query.mark_variant == 6 ? Material.cda002_chicken_legs" },
         { "head": "query.mark_variant == 7 ? Material.cda002_snow_golem_head" },
-        { "*": "query.mark_variant == 8 ? Material.cda002_villager" }
+        { "*": "query.mark_variant == 8 ? Material.cda002_villager" },
+        { "*arm": "query.mark_variant == 9 ? Material.cda002_axolotl_limbs" },
+        { "*leg": "query.mark_variant == 9 ? Material.cda002_axolotl_limbs" }
       ],
       "textures": [ "Array.textures[query.mark_variant]" ],
       "part_visibility": [

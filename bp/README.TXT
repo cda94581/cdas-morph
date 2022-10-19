@@ -35,7 +35,13 @@ Known Issues - https://github.com/cda94581/Community_Collabs/issues?q=is%3Aopen+
 If you would like to help report issues, suggest features, and more, head over to https://github.com/cda94581/Community_Collabs/tree/main/Add-ons/Cda's%20Morph to see what you can do!
 
 Changelog
-v0.0.5 - DATE (YYYY/MM/DD)
+v0.0.6 - 2021/06/16 (YYYY/MM/DD)
+Updated Properly for 1.17.0
+Added Axolotl
+Added Glow Squid
+Added Goat
+---
+v0.0.5 - 2021/05/09 (YYYY/MM/DD)
 Mobs now have movement animation (#4)
 The proper mobs now hold out arms (#8)
 Blaze now renders properly (#16)

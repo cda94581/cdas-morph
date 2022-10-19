@@ -1,23 +1,23 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "§lRead the Description before using§r\nMorph into any mob that you kill!\nMorphing will have bugs; please report any and all bugs.\n\n§lMade by §ccda94581§r\n\nIf you have issues, contact me at the links found in the description of https://mcpedl.com/cdas-morph/ Spamming angry emojis doesn't help me help you. Before you say something along the lines of \"Please add...\" on a place other than MCPEDL, again, contact me at the links found at the website above. I can't help you on MCPE Add-ons, I can't help you on whatever other weird website this has popped up to. I can only help you on MCPEDL and the links I posted in the description.\n\n§lChangelog Version 0.0.5:\n§rMobs now have movement animation (#4)\nThe proper mobs now hold out arms (#8)\nBlaze now renders properly (#16)\nElder Guardian now renders spikes correctly (#17)\nGuardian now renders spikes correctly (#19)\nMobs are no longer super fast in water when they aren't supposed to be (#32)\nYou can now toggle between ways to obtain in survival (Recipes, Loot Tables, Both, No way), by clicking on the pack gear icon (#51)\nBlaze has been removed from hidden WIP mobs\nElder Guardian has been removed from hidden WIP mobs\nGuardian has been removed from hidden WIP mobs\nMade some small tweaks to Piglin Brute Morph item texture\n\nNEW MOBS! (Note these are still being developed and more features will be added)\nCrafting recipes for all new mobs except for Bee and Wolf are still in development\nAdded Wolf (#33)\nAdded Wither (#34)\nAdded Fox (#35)\nAdded Horse (#36)\nAdded Cat (#37)\nAdded Enderman (#38)\nAdded Villager (#39)\nAdded Piglin (#45)\nAdded Ender Dragon (#46) (Locked behind WIP due to rendering issues)\nAdded Rabbit (#47)\nAdded Pig (#48)\nAdded Bee (#49)\nAdded Cow (#50)\nAdded Bat (#52)\nAdded Chicken (#53) (Locked behind WIP due to rendering issues)\nAdded Cod (#54)\nAdded Donkey (#55)\nAdded Mooshroom (#56)\nAdded Mule (#57)\nAdded Ocelot (#58)\nAdded Parrot (#59)\nAdded Pufferfish (#60)\nAdded Salmon (#61)\nAdded Sheep (#62)\nAdded Skeleton Horse (#63)\nAdded Snow Golem (#64)\nAdded Squid (#65)\nAdded Strider (#66)\nAdded Tropical Fish (#67)\nAdded Turtle (#68)\nAdded Wandering Trader (#69)\nAdded Cave Spider (#70)\nAdded Dolphin (#71)\nAdded Iron Golem (#72)\nAdded Llama (#73)\nAdded Panda (#74)\nAdded Polar Bear (#75)\nAdded Spider (#76)\nAdded Zombified Piglin (#77)\nAdded Agent (#78)\nAdded NPC (#79)",
-		"name": "Cda's Morph v0.0.5 [BP]",
+		"description": "§lRead the Description before using§r\nMorph into any mob that you kill!\nMorphing will have bugs; please report any and all bugs.\n\n§lMade by §ccda94581§r\n\nIf you have issues, contact me at the links found in the description of https://mcpedl.com/cdas-morph/ Spamming angry emojis doesn't help me help you. Before you say something along the lines of \"Please add...\" on a place other than MCPEDL, again, contact me at the links found at the website above. I can't help you on MCPE Add-ons, I can't help you on whatever other weird website this has popped up to. I can only help you on MCPEDL and the links I posted in the description.\n\n§lChangelog Version 0.0.6:\n§rUpdated Properly for 1.17.0\nAdded Axolotl\nAdded Glow Squid\nAdded Goat",
+		"name": "Cda's Morph v0.0.6 [BP]",
 		"uuid": "252c6750-6c0a-4131-8e86-201b6aa37605",
-		"min_engine_version": [ 1, 16, 201 ],
-		"version": [ 0, 0, 5 ]
+		"min_engine_version": [ 1, 17, 0 ],
+		"version": [ 0, 0, 6 ]
 	},
 	"modules": [
 		{
 			"type": "data",
 			"uuid": "2bd868a4-c2be-4026-812e-723bad075ca0",
-			"version": [ 0, 0, 5 ]
+			"version": [ 0, 0, 6 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "bbc91fc1-aff3-457b-bf2c-cbec330fd188",
-			"version": [ 0, 0, 5 ]
+			"version": [ 0, 0, 6 ]
 		}
 	],
 	"metadata": {

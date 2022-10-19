@@ -2,212 +2,77 @@
 	"resource_pack_name": "cda002",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"cda002_player": {
-			"textures": "textures/cda002/player"
-		},
-		"cda002_blaze": {
-			"textures": "textures/cda002/blaze"
-		},
-		"cda002_creeper": {
-			"textures": "textures/cda002/creeper"
-		},
-		"cda002_drowned": {
-			"textures": "textures/cda002/drowned"
-		},
-		"cda002_elder_guardian": {
-			"textures": "textures/cda002/elder_guardian"
-		},
-		"cda002_endermite": {
-			"textures": "textures/cda002/endermite"
-		},
-		"cda002_evoker": {
-			"textures": "textures/cda002/evoker"
-		},
-		"cda002_ghast": {
-			"textures": "textures/cda002/ghast"
-		},
-		"cda002_guardian": {
-			"textures": "textures/cda002/guardian"
-		},
-		"cda002_hoglin": {
-			"textures": "textures/cda002/hoglin"
-		},
-		"cda002_husk": {
-			"textures": "textures/cda002/husk"
-		},
-		"cda002_magma_cube": {
-			"textures": "textures/cda002/magma_cube"
-		},
-		"cda002_phantom": {
-			"textures": "textures/cda002/phantom"
-		},
-		"cda002_piglin_brute": {
-			"textures": "textures/cda002/piglin_brute"
-		},
-		"cda002_pillager": {
-			"textures": "textures/cda002/pillager"
-		},
-		"cda002_ravager": {
-			"textures": "textures/cda002/ravager"
-		},
-		"cda002_shulker": {
-			"textures": "textures/cda002/shulker"
-		},
-		"cda002_silverfish": {
-			"textures": "textures/cda002/silverfish"
-		},
-		"cda002_skeleton": {
-			"textures": "textures/cda002/skeleton"
-		},
-		"cda002_slime": {
-			"textures": "textures/cda002/slime"
-		},
-		"cda002_stray": {
-			"textures": "textures/cda002/stray"
-		},
-		"cda002_vex": {
-			"textures": "textures/cda002/vex"
-		},
-		"cda002_vindicator": {
-			"textures": "textures/cda002/vindicator"
-		},
-		"cda002_witch": {
-			"textures": "textures/cda002/witch"
-		},
-		"cda002_wither_skeleton": {
-			"textures": "textures/cda002/wither_skeleton"
-		},
-		"cda002_zoglin": {
-			"textures": "textures/cda002/zoglin"
-		},
-		"cda002_zombie": {
-			"textures": "textures/cda002/zombie"
-		},
-		"cda002_zombie_villager": {
-			"textures": "textures/cda002/zombie_villager"
-		},
-		"cda002_bee": {
-			"textures": "textures/cda002/bee"
-		},
-		"cda002_cave_spider": {
-			"textures": "textures/cda002/cave_spider"
-		},
-		"cda002_dolphin": {
-			"textures": "textures/cda002/dolphin"
-		},
-		"cda002_enderman": {
-			"textures": "textures/cda002/enderman"
-		},
-		"cda002_iron_golem": {
-			"textures": "textures/cda002/iron_golem"
-		},
-		"cda002_llama": {
-			"textures": "textures/cda002/llama"
-		},
-		"cda002_piglin": {
-			"textures": "textures/cda002/piglin"
-		},
-		"cda002_panda": {
-			"textures": "textures/cda002/panda"
-		},
-		"cda002_polar_bear": {
-			"textures": "textures/cda002/polar_bear"
-		},
-		"cda002_spider": {
-			"textures": "textures/cda002/spider"
-		},
-		"cda002_wolf": {
-			"textures": "textures/cda002/wolf"
-		},
-		"cda002_zombified_piglin": {
-			"textures": "textures/cda002/zombified_piglin"
-		},
-		"cda002_bat": {
-			"textures": "textures/cda002/bat"
-		},
-		"cda002_cat": {
-			"textures": "textures/cda002/cat"
-		},
-		"cda002_chicken": {
-			"textures": "textures/cda002/chicken"
-		},
-		"cda002_cod": {
-			"textures": "textures/cda002/cod"
-		},
-		"cda002_cow": {
-			"textures": "textures/cda002/cow"
-		},
-		"cda002_donkey": {
-			"textures": "textures/cda002/donkey"
-		},
-		"cda002_fox": {
-			"textures": "textures/cda002/fox"
-		},
-		"cda002_horse": {
-			"textures": "textures/cda002/horse"
-		},
-		"cda002_mooshroom": {
-			"textures": "textures/cda002/mooshroom"
-		},
-		"cda002_mule": {
-			"textures": "textures/cda002/mule"
-		},
-		"cda002_ocelot": {
-			"textures": "textures/cda002/ocelot"
-		},
-		"cda002_parrot": {
-			"textures": "textures/cda002/parrot"
-		},
-		"cda002_pig": {
-			"textures": "textures/cda002/pig"
-		},
-		"cda002_pufferfish": {
-			"textures": "textures/cda002/pufferfish"
-		},
-		"cda002_rabbit": {
-			"textures": "textures/cda002/rabbit"
-		},
-		"cda002_salmon": {
-			"textures": "textures/cda002/salmon"
-		},
-		"cda002_sheep": {
-			"textures": "textures/cda002/sheep"
-		},
-		"cda002_skeleton_horse": {
-			"textures": "textures/cda002/skeleton_horse"
-		},
-		"cda002_snow_golem": {
-			"textures": "textures/cda002/snow_golem"
-		},
-		"cda002_squid": {
-			"textures": "textures/cda002/squid"
-		},
-		"cda002_strider": {
-			"textures": "textures/cda002/strider"
-		},
-		"cda002_tropical_fish": {
-			"textures": "textures/cda002/tropical_fish"
-		},
-		"cda002_turtle": {
-			"textures": "textures/cda002/turtle"
-		},
-		"cda002_villager": {
-			"textures": "textures/cda002/villager"
-		},
-		"cda002_wandering_trader": {
-			"textures": "textures/cda002/wandering_trader"
-		},
-		"cda002_ender_dragon": {
-			"textures": "textures/cda002/ender_dragon"
-		},
-		"cda002_wither": {
-			"textures": "textures/cda002/wither"
-		},
-		"cda002_agent": {
-			"textures": "textures/cda002/agent"
-		},
-		"cda002_npc": {
-			"textures": "textures/cda002/npc"
-		}
+		"cda002_player": { "textures": "textures/cda002/player" },
+		"cda002_blaze": { "textures": "textures/cda002/blaze" },
+		"cda002_creeper": { "textures": "textures/cda002/creeper" },
+		"cda002_drowned": { "textures": "textures/cda002/drowned" },
+		"cda002_elder_guardian": { "textures": "textures/cda002/elder_guardian" },
+		"cda002_endermite": { "textures": "textures/cda002/endermite" },
+		"cda002_evoker": { "textures": "textures/cda002/evoker" },
+		"cda002_ghast": { "textures": "textures/cda002/ghast" },
+		"cda002_guardian": { "textures": "textures/cda002/guardian" },
+		"cda002_hoglin": { "textures": "textures/cda002/hoglin" },
+		"cda002_husk": { "textures": "textures/cda002/husk" },
+		"cda002_magma_cube": { "textures": "textures/cda002/magma_cube" },
+		"cda002_phantom": { "textures": "textures/cda002/phantom" },
+		"cda002_piglin_brute": { "textures": "textures/cda002/piglin_brute" },
+		"cda002_pillager": { "textures": "textures/cda002/pillager" },
+		"cda002_ravager": { "textures": "textures/cda002/ravager" },
+		"cda002_shulker": { "textures": "textures/cda002/shulker" },
+		"cda002_silverfish": { "textures": "textures/cda002/silverfish" },
+		"cda002_skeleton": { "textures": "textures/cda002/skeleton" },
+		"cda002_slime": { "textures": "textures/cda002/slime" },
+		"cda002_stray": { "textures": "textures/cda002/stray" },
+		"cda002_vex": { "textures": "textures/cda002/vex" },
+		"cda002_vindicator": { "textures": "textures/cda002/vindicator" },
+		"cda002_witch": { "textures": "textures/cda002/witch" },
+		"cda002_wither_skeleton": { "textures": "textures/cda002/wither_skeleton" },
+		"cda002_zoglin": { "textures": "textures/cda002/zoglin" },
+		"cda002_zombie": { "textures": "textures/cda002/zombie" },
+		"cda002_zombie_villager": { "textures": "textures/cda002/zombie_villager" },
+		"cda002_bee": { "textures": "textures/cda002/bee" },
+		"cda002_cave_spider": { "textures": "textures/cda002/cave_spider" },
+		"cda002_dolphin": { "textures": "textures/cda002/dolphin" },
+		"cda002_enderman": { "textures": "textures/cda002/enderman" },
+		"cda002_iron_golem": { "textures": "textures/cda002/iron_golem" },
+		"cda002_llama": { "textures": "textures/cda002/llama" },
+		"cda002_piglin": { "textures": "textures/cda002/piglin" },
+		"cda002_panda": { "textures": "textures/cda002/panda" },
+		"cda002_polar_bear": { "textures": "textures/cda002/polar_bear" },
+		"cda002_spider": { "textures": "textures/cda002/spider" },
+		"cda002_wolf": { "textures": "textures/cda002/wolf" },
+		"cda002_zombified_piglin": { "textures": "textures/cda002/zombified_piglin" },
+		"cda002_bat": { "textures": "textures/cda002/bat" },
+		"cda002_cat": { "textures": "textures/cda002/cat" },
+		"cda002_chicken": { "textures": "textures/cda002/chicken" },
+		"cda002_cod": { "textures": "textures/cda002/cod" },
+		"cda002_cow": { "textures": "textures/cda002/cow" },
+		"cda002_donkey": { "textures": "textures/cda002/donkey" },
+		"cda002_fox": { "textures": "textures/cda002/fox" },
+		"cda002_horse": { "textures": "textures/cda002/horse" },
+		"cda002_mooshroom": { "textures": "textures/cda002/mooshroom" },
+		"cda002_mule": { "textures": "textures/cda002/mule" },
+		"cda002_ocelot": { "textures": "textures/cda002/ocelot" },
+		"cda002_parrot": { "textures": "textures/cda002/parrot" },
+		"cda002_pig": { "textures": "textures/cda002/pig" },
+		"cda002_pufferfish": { "textures": "textures/cda002/pufferfish" },
+		"cda002_rabbit": { "textures": "textures/cda002/rabbit" },
+		"cda002_salmon": { "textures": "textures/cda002/salmon" },
+		"cda002_sheep": { "textures": "textures/cda002/sheep" },
+		"cda002_skeleton_horse": { "textures": "textures/cda002/skeleton_horse" },
+		"cda002_snow_golem": { "textures": "textures/cda002/snow_golem" },
+		"cda002_squid": { "textures": "textures/cda002/squid" },
+		"cda002_strider": { "textures": "textures/cda002/strider" },
+		"cda002_tropical_fish": { "textures": "textures/cda002/tropical_fish" },
+		"cda002_turtle": { "textures": "textures/cda002/turtle" },
+		"cda002_villager": { "textures": "textures/cda002/villager" },
+		"cda002_wandering_trader": { "textures": "textures/cda002/wandering_trader" },
+		"cda002_ender_dragon": { "textures": "textures/cda002/ender_dragon" },
+		"cda002_wither": { "textures": "textures/cda002/wither" },
+		"cda002_agent": { "textures": "textures/cda002/agent" },
+		"cda002_npc": { "textures": "textures/cda002/npc" },
+		"cda002_axolotl": { "textures": "textures/cda002/axolotl" },
+		"cda002_glow_squid": { "textures": "textures/cda002/glow_squid" },
+		"cda002_goat": { "textures": "textures/cda002/goat" }
 	}
 }

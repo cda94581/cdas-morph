@@ -74,7 +74,10 @@
 						{ "ender_dragon": "query.get_equipped_item_name(0) == 'ender_dragon' && query.is_using_item" },
 						{ "wither": "query.get_equipped_item_name(0) == 'wither' && query.is_using_item" },
 						{ "agent": "query.get_equipped_item_name(0) == 'agent' && query.is_using_item" },
-						{ "npc": "query.get_equipped_item_name(0) == 'npc' && query.is_using_item" }
+						{ "npc": "query.get_equipped_item_name(0) == 'npc' && query.is_using_item" },
+						{ "axolotl": "query.get_equipped_item_name(0) == 'axolotl' && query.is_using_item" },
+						{ "glow_squid": "query.get_equipped_item_name(0) == 'glow_squid' && query.is_using_item" },
+						{ "goat": "query.get_equipped_item_name(0) == 'goat' && query.is_using_item" }
 					]
 				},
 				"player": {
@@ -352,6 +355,18 @@
 				"npc": {
 					"on_entry": [ "/function cda002/npc" ],
 					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'npc' || !query.is_using_item" }]
+				},
+				"axolotl": {
+					"on_entry": [ "/function cda002/axolotl" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'axolotl' || !query.is_using_item" }]
+				},
+				"glow_squid": {
+					"on_entry": [ "/function cda002/glow_squid" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'glow_squid' || !query.is_using_item" }]
+				},
+				"goat": {
+					"on_entry": [ "/function cda002/goat" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'goat' || !query.is_using_item" }]
 				}
 			}
 		},
