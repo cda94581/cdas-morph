@@ -5,7 +5,15 @@
       "identifier": "minecraft:player",
       "is_spawnable": false,
       "is_summonable": false,
-      "is_experimental": false
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "cda002_player"
+        ]
+      },
+      "animations": {
+        "cda002_player": "controller.animation.cda002.player"
+      }
     },
     "component_groups": {
       "minecraft:add_bad_omen": {
@@ -50,6 +58,9 @@
       "cda002:player": {
         "minecraft:variant": {
           "value": 0
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:experience_reward": {
           "on_death": "Math.Min(query.player_level * 7, 100)"
@@ -179,6 +190,9 @@
         "minecraft:variant": {
           "value": 1
         },
+        "minecraft:mark_variant": {
+          "value": 0
+        },
         "minecraft:loot": {
           "table": "loot_tables/entities/blaze.json"
         },
@@ -236,6 +250,9 @@
       "cda002:creeper": {
         "minecraft:variant": {
           "value": 2
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:type_family": {
           "family": [
@@ -304,6 +321,9 @@
         "minecraft:variant": {
           "value": 3
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:type_family": {
           "family": [
             "drowned",
@@ -367,6 +387,9 @@
         "minecraft:variant": {
           "value": 4
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:collision_box": {
           "width": 1.99,
           "height": 1.99
@@ -423,6 +446,9 @@
         "minecraft:variant": {
           "value": 5
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:breathable": {
           "total_supply": 15,
           "suffocate_time": 0
@@ -475,6 +501,9 @@
       "cda002:evoker": {
         "minecraft:variant": {
           "value": 6
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:type_family": {
           "family": [
@@ -529,6 +558,9 @@
         "minecraft:variant": {
           "value": 7
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:fire_immune": {},
         "minecraft:health": {
           "value": 10,
@@ -571,6 +603,9 @@
       "cda002:guardian": {
         "minecraft:variant": {
           "value": 8
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:collision_box": {
           "width": 0.85,
@@ -627,6 +662,9 @@
       "cda002:hoglin": {
         "minecraft:variant": {
           "value": 9
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:health": {
           "value": 40,
@@ -699,6 +737,9 @@
       "cda002:husk": {
         "minecraft:variant": {
           "value": 10
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:breathable": {
           "total_supply": 15,
@@ -777,6 +818,9 @@
         "minecraft:variant": {
           "value": 11
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:type_family": {
           "family": [
             "magmacube",
@@ -828,6 +872,9 @@
       "cda002:phantom": {
         "minecraft:variant": {
           "value": 12
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:type_family": {
           "family": [
@@ -891,6 +938,9 @@
         "minecraft:variant": {
           "value": 13
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:collision_box": {
           "width": 0.6,
           "height": 1.9
@@ -946,6 +996,9 @@
         "minecraft:variant": {
           "value": 14
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:collision_box": {
           "width": 0.6,
           "height": 1.9
@@ -1000,6 +1053,9 @@
       "cda002:ravager": {
         "minecraft:variant": {
           "value": 15
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:ravager_blocked": {
           "knockback_strength": 3.0,
@@ -1126,6 +1182,9 @@
         "minecraft:variant": {
           "value": 16
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:type_family": {
           "family": [
             "shulker",
@@ -1170,6 +1229,9 @@
       "cda002:silverfish": {
         "minecraft:variant": {
           "value": 17
+        },
+        "minecraft:mark_variant": {
+          "value": 1
         },
         "minecraft:type_family": {
           "family": [
@@ -1226,6 +1288,9 @@
       "cda002:skeleton": {
         "minecraft:variant": {
           "value": 18
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:collision_box": {
           "width": 0.6,
@@ -1288,6 +1353,9 @@
         "minecraft:variant": {
           "value": 19
         },
+        "minecraft:mark_variant": {
+          "value": 2
+        },
         "minecraft:type_family": {
           "family": [
             "slime",
@@ -1347,6 +1415,9 @@
       "cda002:stray": {
         "minecraft:variant": {
           "value": 20
+        },
+        "minecraft:mark_variant": {
+          "value": 3
         },
         "minecraft:breathable": {
           "total_supply": 15,
@@ -1413,6 +1484,9 @@
         "minecraft:variant": {
           "value": 21
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:type_family": {
           "family": [
             "vex",
@@ -1449,6 +1523,9 @@
       "cda002:vindicator": {
         "minecraft:variant": {
           "value": 22
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:type_family": {
           "family": [
@@ -1505,6 +1582,9 @@
         "minecraft:variant": {
           "value": 23
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:breathable": {
           "total_supply": 15,
           "suffocate_time": 0
@@ -1557,6 +1637,9 @@
         "minecraft:variant": {
           "value": 24
         },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
         "minecraft:breathable": {
           "total_supply": 15,
           "suffocate_time": 0,
@@ -1606,6 +1689,9 @@
       "cda002:zoglin": {
         "minecraft:variant": {
           "value": 25
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:loot": {
           "table": "loot_tables/entities/zoglin.json"
@@ -1674,6 +1760,9 @@
       "cda002:zombie": {
         "minecraft:variant": {
           "value": 26
+        },
+        "minecraft:mark_variant": {
+          "value": -1
         },
         "minecraft:type_family": {
           "family": [
@@ -1747,6 +1836,9 @@
       "cda002:zombie_villager": {
         "minecraft:variant": {
           "value": 27
+        },
+        "minecraft:mark_variant": {
+          "value": 4
         },
         "minecraft:movement.basic": {},
         "minecraft:jump.static": {},

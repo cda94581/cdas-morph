@@ -1,7 +1,6 @@
 Cda's Morph Add-on brings you the morph mod from Java Edition over to Bedrock Edition. You can currently morph into any hostile mob as listed by MC Gamepedia
 
 THIS ADD-ON IS IN ALPHA AND MAY BE BUGGY
-THIS ADD-ON REQUIRES "HOLIDAY CREATOR FEATURES" TO BE ENABLED
 
 Please also note this add-on modifies the Vanilla Player Files, which means
 many packs will not be compatible with this
@@ -15,17 +14,14 @@ WIP Reasons - https://github.com/cda94581/Community_Collabs/issues?q=is%3Aopen+i
 #18 Ghast visual size too small
 #19 Guardian doesn't render spikes correctly
 #20 Most of Silverfish body renders incorrectly
-#21 Slime doesn't render like it's supposed to, looks more solid than it should
-#22 Stray doesn't render with outer layer
 #23 Vex oversized
 #24 Zombie Villager doesn't render with outer layer
 
-You can still unlock these by running "/event entity @s cda002:remove", followed
-by "/event entity @s cda002:" and then one of the mobs listed above, replacing
+You can still unlock these by running "/function cda002/", followed
+by one of the mobs listed above, replacing
 spaces with underscores _ and converting to lowercase. For example, to access
 the Elder Guardian, run:
-1. /event entity @s cda002:remove
-2. /event entity @s elder_guardian
+1. /function cda002/elder_guardian
 
 License: This pack is provided to you under the CC-BY-SA-4.0 License, which
 allows you to modify, distribute, and more as long as you give proper credit to
@@ -45,6 +41,17 @@ Known Issues - https://github.com/cda94581/Community_Collabs/issues?q=is%3Aopen+
 If you would like to help report issues, suggest features, and more, head over to https://github.com/cda94581/Community_Collabs/tree/main/Add-ons/Cda's%20Morph to see what you can do!
 
 Changelog
+v0.0.3 - 2021/03/27 (YYYY/MM/DD)
+Added el_GR (Greek) translation (Thanks Google)
+Slime now renders mostly properly (#21)
+Stray now renders properly (#22)
+Slime has been removed from hidden WIP mobs
+Stray has been removed from hidden WIP mobs
+Skeleton has been removed from hidden WIP mobs...why was it there in the first place lol?
+Added changelog to behavior/resource pack
+You no longer require "Holiday Creator Features" to use
+Added functions for easier morphing
+---
 v0.0.2 - 2021/03/24 (YYYY/MM/DD)
 Updated README to show known issues numbers
 Husks now drop morph (#12)

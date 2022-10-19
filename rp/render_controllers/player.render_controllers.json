@@ -336,6 +336,126 @@
         { "hat": true },
         { "helmet": true }
       ]
+    },
+    "controller.render.cda002.player.layer2.first_person": {
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.cda002_blaze",
+            "Texture.cda002_silverfish",
+            "Texture.cda002_slime",
+            "Texture.cda002_stray_overlay",
+            "Texture.cda002_zombie_villager_plains"
+          ]
+        },
+        "geometries": {
+          "Array.geometries": [
+            "Geometry.cda002_blaze",
+            "Geometry.cda002_silverfish",
+            "Geometry.cda002_slime_armor",
+            "Geometry.cda002_stray_overlay",
+            "Geometry.cda002_zombie_villager"
+          ]
+        }
+      },
+      "geometry": "Array.geometries[query.mark_variant]",
+      "materials": [
+        { "head": "query.mark_variant == 0 ? Material.cda002_blaze_head" },
+        { "bodyLayer_*": "query.mark_variant == 1 ? Material.cda002_silverfish_body_layer" },
+        { "*": "query.mark_variant == 2 ? Material.cda002_slime_outer" },
+        { "*": "query.mark_variant == 3 ? Material.cda002_stray_overlay" },
+        { "*": "query.mark_variant == 4 ? Material.cda002_zombie_villager_masked" }
+      ],
+      "textures": [ "Array.textures[query.mark_variant]" ],
+      "part_visibility": [
+        { "*": false },
+        { "rightArm": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'" },
+        { "rightSleeve": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'" },
+        { "leftArm": "(query.get_equipped_item_name(0, 1) == 'map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))" },
+        { "leftSleeve": "(query.get_equipped_item_name(0, 1) == 'map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))" }
+      ]
+    },
+    "controller.render.cda002.player.layer2.third_person": {
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.cda002_blaze",
+            "Texture.cda002_silverfish",
+            "Texture.cda002_slime",
+            "Texture.cda002_stray_overlay",
+            "Texture.cda002_zombie_villager_plains"
+          ]
+        },
+        "geometries": {
+          "Array.geometries": [
+            "Geometry.cda002_blaze",
+            "Geometry.cda002_silverfish",
+            "Geometry.cda002_slime_armor",
+            "Geometry.cda002_stray_overlay",
+            "Geometry.cda002_zombie_villager"
+          ]
+        }
+      },
+      "geometry": "Array.geometries[query.mark_variant]",
+      "materials": [
+        { "head": "query.mark_variant == 0 ? Material.cda002_blaze_head" },
+        { "bodyLayer_*": "query.mark_variant == 1 ? Material.cda002_silverfish_body_layer" },
+        { "*": "query.mark_variant == 2 ? Material.cda002_slime_outer" },
+        { "*": "query.mark_variant == 3 ? Material.cda002_stray_overlay" },
+        { "*": "query.mark_variant == 4 ? Material.cda002_zombie_villager_masked" }
+      ],
+      "textures": [ "Array.textures[query.mark_variant]" ],
+      "part_visibility": [
+        { "*": true },
+        { "helmet": "variable.helmet_layer_visible" },
+        { "leftLegging": "variable.leg_layer_visible" },
+        { "rightLegging": "variable.leg_layer_visible" },
+        { "leftBoot": "variable.boot_layer_visible" },
+        { "rightBoot": "variable.boot_layer_visible" },
+        { "leftSock": "variable.boot_layer_visible && variable.leg_layer_visible" },
+        { "rightSock": "variable.boot_layer_visible && variable.leg_layer_visible" },
+        { "bodyArmor": "variable.chest_layer_visible && !query.has_cape" },
+        { "leftArmArmor": "variable.chest_layer_visible && !query.has_cape" },
+        { "rightArmArmor": "variable.chest_layer_visible && !query.has_cape" },
+        { "belt": "variable.chest_layer_visible && variable.leg_layer_visible" }
+      ]
+    },
+    "controller.render.cda002.player.layer2.map": {
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.cda002_blaze",
+            "Texture.cda002_silverfish",
+            "Texture.cda002_slime",
+            "Texture.cda002_stray_overlay",
+            "Texture.cda002_zombie_villager_plains"
+          ]
+        },
+        "geometries": {
+          "Array.geometries": [
+            "Geometry.cda002_blaze",
+            "Geometry.cda002_silverfish",
+            "Geometry.cda002_slime_armor",
+            "Geometry.cda002_stray_overlay",
+            "Geometry.cda002_zombie_villager"
+          ]
+        }
+      },
+      "geometry": "Array.geometries[query.mark_variant]",
+      "materials": [
+        { "head": "query.mark_variant == 0 ? Material.cda002_blaze_head" },
+        { "bodyLayer_*": "query.mark_variant == 1 ? Material.cda002_silverfish_body_layer" },
+        { "*": "query.mark_variant == 2 ? Material.cda002_slime_outer" },
+        { "*": "query.mark_variant == 3 ? Material.cda002_stray_overlay" },
+        { "*": "query.mark_variant == 4 ? Material.cda002_zombie_villager_masked" }
+      ],
+      "textures": [ "Array.textures[query.mark_variant]" ],
+      "part_visibility": [
+        { "*": false },
+        { "head": true },
+        { "hat": true },
+        { "helmet": true }
+      ]
     }
   }
 }

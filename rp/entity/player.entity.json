@@ -8,6 +8,7 @@
         "cape": "entity_alphatest",
         "animated": "player_animated",
         "cda002_blaze_body": "blaze_body",
+        "cda002_blaze_head": "blaze_head",
         "cda002_creeper": "creeper",
         "cda002_drowned": "drowned",
         "cda002_elder_guardian": "guardian",
@@ -24,21 +25,25 @@
         "cda002_ravager": "ravager",
         "cda002_shulker": "shulker",
         "cda002_silverfish": "silverfish",
+        "cda002_silverfish_body_layer": "silverfish_layers",
         "cda002_skeleton": "skeleton",
         "cda002_slime": "slime",
+        "cda002_slime_outer": "slime_outer",
         "cda002_stray": "stray",
+        "cda002_stray_overlay": "stray_clothes",
         "cda002_vex": "vex",
         "cda002_vindicator": "vindicator",
         "cda002_witch": "witch",
         "cda002_wither_skeleton": "skeleton",
         "cda002_zoglin": "zoglin",
         "cda002_zombie": "zombie",
-        "cda002_zombie_villager": "zombie_villager_v2"
+        "cda002_zombie_villager": "zombie_villager_v2",
+        "cda002_zombie_villager_masked": "zombie_villager_v2_masked"
       },
       "textures": {
         "default": "textures/entity/steve",
         "cape": "textures/entity/cape_invisible",
-        "cda002_blaze_body": "textures/entity/blaze",
+        "cda002_blaze": "textures/entity/blaze",
         "cda002_creeper": "textures/entity/creeper/creeper",
         "cda002_drowned": "textures/entity/zombie/drowned",
         "cda002_elder_guardian": "textures/entity/guardian_elder",
@@ -58,18 +63,20 @@
         "cda002_skeleton": "textures/entity/skeleton/skeleton",
         "cda002_slime": "textures/entity/slime/slime",
         "cda002_stray": "textures/entity/skeleton/stray",
+        "cda002_stray_overlay": "textures/entity/skeleton/stray_overlay",
         "cda002_vex": "textures/entity/vex/vex",
         "cda002_vindicator": "textures/entity/vindicator",
         "cda002_witch": "textures/entity/witch",
         "cda002_wither_skeleton": "textures/entity/skeleton/wither_skeleton",
         "cda002_zoglin": "textures/entity/zoglin/zoglin",
         "cda002_zombie": "textures/entity/zombie/zombie",
-        "cda002_zombie_villager": "textures/entity/zombie_villager2/zombie-villager"
+        "cda002_zombie_villager": "textures/entity/zombie_villager2/zombie-villager",
+        "cda002_zombie_villager_plains": "textures/entity/zombie_villager2/biomes/biome-plains-zombie"
       },
       "geometry": {
         "default": "geometry.humanoid.custom",
         "cape": "geometry.cape",
-        "cda002_blaze_body": "geometry.blaze",
+        "cda002_blaze": "geometry.blaze",
         "cda002_creeper": "geometry.creeper.v1.8",
         "cda002_drowned": "geometry.zombie.drowned.v1.16",
         "cda002_elder_guardian": "geometry.guardian.v1.8",
@@ -88,7 +95,9 @@
         "cda002_silverfish": "geometry.silverfish",
         "cda002_skeleton": "geometry.skeleton.v1.8",
         "cda002_slime": "geometry.slime",
+        "cda002_slime_armor": "geometry.slime.armor",
         "cda002_stray": "geometry.skeleton.stray.v1.8",
+        "cda002_stray_overlay": "geometry.stray.armor.v1.8",
         "cda002_vex": "geometry.vex.v1.8",
         "cda002_vindicator": "geometry.vindicator.v1.8",
         "cda002_witch": "geometry.villager.witch.v1.8",
@@ -175,7 +184,10 @@
       "render_controllers": [
         { "controller.render.player.first_person": "variable.is_first_person" },
         { "controller.render.player.third_person": "!variable.is_first_person && !variable.map_face_icon" },
-        { "controller.render.player.map": "variable.map_face_icon" }
+        { "controller.render.player.map": "variable.map_face_icon" },
+        { "controller.render.cda002.player.layer2.first_person": "variable.is_first_person && query.mark_variant != -1" },
+        { "controller.render.cda002.player.layer2.third_person": "!variable.is_first_person && !variable.map_face_icon && query.mark_variant != -1" },
+        { "controller.render.cda002.player.layer2.map": "variable.map_face_icon && query.mark_variant != -1" }
       ],
       "enable_attachables": true
     }

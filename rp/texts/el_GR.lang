@@ -1,3 +1,30 @@
 ## Greek
 
-## AHHH I FORGOT TO ADD THIS SMH CDA
+item.cda002:player.name=μορφ παίκτης
+item.cda002:blaze.name=μορφ φλόγας
+item.cda002:creeper.name=μορφ Creeper
+item.cda002:drowned.name=μορφ Πνιγμένου
+item.cda002:elder_guardian.name=μορφ Πρεσβύτερου φύλακα
+item.cda002:endermite.name=μορφ Εντόμου του Τελειωτή
+item.cda002:evoker.name=μορφ Επικαλεστή
+item.cda002:ghast.name=μορφ Ghast
+item.cda002:guardian.name=μορφ Φύλακα
+item.cda002:hoglin.name=μορφ Χόγκλιν
+item.cda002:husk.name=μορφ κουφαριού
+item.cda002:magma_cube.name=μορφ κύβου μάγματος
+item.cda002:phantom.name=μορφ στοιχειού
+item.cda002:piglin_brute.name=μορφ Άγριου Πίγκλιν
+item.cda002:pillager.name=μορφ Άρπαγα
+item.cda002:ravager.name=μορφ Ολέθρου
+item.cda002:shulker.name=μορφ Shulker
+item.cda002:silverfish.name=μορφ εντόμου «ψαράκι»
+item.cda002:skeleton.name=μορφ σκελετού
+item.cda002:slime.name=μορφ γλίτσας
+item.cda002:stray.name=μορφ αδέσποτου
+item.cda002:vex.name=μορφ Βεξ
+item.cda002:vindicator.name=μορφ Εκδικητή
+item.cda002:witch.name=μορφ μάγισσας
+item.cda002:wither_skeleton.name=μορφ σκελετού μαρασμού
+item.cda002:zoglin.name=μορφ Ζόγκλιν
+item.cda002:zombie.name=μορφ ζόμπι
+item.cda002:zombie_villager.name=μορφ Χωρικού-ζόμπι
