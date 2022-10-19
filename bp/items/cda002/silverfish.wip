@@ -1,0 +1,39 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cda002:silverfish",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "cda002:silverfish"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "cda002_silverfish"
+			},
+			"minecraft:cooldown": {
+				"category": "cda002_morph",
+				"duration": 1
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.equipment"
+			}
+		},
+		"events": {
+			"cda002:silverfish": {
+				"run_command": {
+					"command": [
+						"event entity @s cda002:remove",
+						"event entity @s cda002:silverfish",
+						"title @s actionbar §cMorphing into Silverfish...\nMorphing may be buggy [ALPHA]"
+					]
+				}
+			}
+		}
+	}
+}

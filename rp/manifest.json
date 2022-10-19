@@ -1,0 +1,28 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Morph into any mob that you kill!\nMorphing will have bugs; please report any and all bugs.\n\n§lMade by §ccda94581",
+		"name": "Cda's Morph v0.0.1 [RP]",
+		"uuid": "bbc91fc1-aff3-457b-bf2c-cbec330fd188",
+		"min_engine_version": [ 1, 16, 210 ],
+		"version": [ 0, 0, 1 ]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "b30e8905-d1ad-4f51-99e1-392998d886db",
+			"version": [ 0, 0, 1 ]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "252c6750-6c0a-4131-8e86-201b6aa37605",
+			"version": [ 0, 0, 1 ]
+		}
+	],
+	"metadata": {
+		"authors": [ "cda94581" ],
+		"license": "CC-BY-SA-4.0",
+		"url": "https://cda94581.github.io/website/pages/downloads/packs/bps#mar16-2021"
+	}
+}

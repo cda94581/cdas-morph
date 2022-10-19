@@ -1,0 +1,90 @@
+{
+	"resource_pack_name": "cda002",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"cda002_player": {
+			"textures": "textures/cda002/player"
+		},
+		"cda002_blaze": {
+			"textures": "textures/cda002/blaze"
+		},
+		"cda002_creeper": {
+			"textures": "textures/cda002/creeper"
+		},
+		"cda002_drowned": {
+			"textures": "textures/cda002/drowned"
+		},
+		"cda002_elder_guardian": {
+			"textures": "textures/cda002/elder_guardian"
+		},
+		"cda002_endermite": {
+			"textures": "textures/cda002/endermite"
+		},
+		"cda002_evoker": {
+			"textures": "textures/cda002/evoker"
+		},
+		"cda002_ghast": {
+			"textures": "textures/cda002/ghast"
+		},
+		"cda002_guardian": {
+			"textures": "textures/cda002/guardian"
+		},
+		"cda002_hoglin": {
+			"textures": "textures/cda002/hoglin"
+		},
+		"cda002_husk": {
+			"textures": "textures/cda002/husk"
+		},
+		"cda002_magma_cube": {
+			"textures": "textures/cda002/magma_cube"
+		},
+		"cda002_phantom": {
+			"textures": "textures/cda002/phantom"
+		},
+		"cda002_piglin_brute": {
+			"textures": "textures/cda002/piglin_brute"
+		},
+		"cda002_pillager": {
+			"textures": "textures/cda002/pillager"
+		},
+		"cda002_ravager": {
+			"textures": "textures/cda002/ravager"
+		},
+		"cda002_shulker": {
+			"textures": "textures/cda002/shulker"
+		},
+		"cda002_silverfish": {
+			"textures": "textures/cda002/silverfish"
+		},
+		"cda002_skeleton": {
+			"textures": "textures/cda002/skeleton"
+		},
+		"cda002_slime": {
+			"textures": "textures/cda002/slime"
+		},
+		"cda002_stray": {
+			"textures": "textures/cda002/stray"
+		},
+		"cda002_vex": {
+			"textures": "textures/cda002/vex"
+		},
+		"cda002_vindicator": {
+			"textures": "textures/cda002/vindicator"
+		},
+		"cda002_witch": {
+			"textures": "textures/cda002/witch"
+		},
+		"cda002_wither_skeleton": {
+			"textures": "textures/cda002/wither_skeleton"
+		},
+		"cda002_zoglin": {
+			"textures": "textures/cda002/zoglin"
+		},
+		"cda002_zombie": {
+			"textures": "textures/cda002/zombie"
+		},
+		"cda002_zombie_villager": {
+			"textures": "textures/cda002/zombie_villager"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cda002:husk",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "cda002:husk"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "cda002_husk"
+			},
+			"minecraft:cooldown": {
+				"category": "cda002_morph",
+				"duration": 1
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.equipment"
+			}
+		},
+		"events": {
+			"cda002:husk": {
+				"run_command": {
+					"command": [
+						"event entity @s cda002:remove",
+						"event entity @s cda002:husk",
+						"title @s actionbar §cMorphing into Husk...\nMorphing may be buggy [ALPHA]"
+					]
+				}
+			}
+		}
+	}
+}
