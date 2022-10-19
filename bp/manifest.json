@@ -1,23 +1,23 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "§lRead the Description before using§r\nMorph into any mob that you kill!\nMorphing will have bugs; please report any and all bugs.\n\n§lMade by §ccda94581§r\n\nIf you have issues, contact me at the links found in the description of https://mcpedl.com/cdas-morph/ Spamming angry emojis doesn't help me help you. Before you say something along the lines of \"Please add...\" on a place other than MCPEDL, again, contact me at the links found at the website above. I can't help you on MCPE Add-ons, I can't help you on whatever other weird website this has popped up to. I can only help you on MCPEDL and the links I posted in the description.\n\n§lChangelog Version 0.0.3:\n§rAdded el_GR (Greek) translation (Thanks Google)\nSlime now renders mostly properly (#21)\nStray now renders properly (#22)\nSlime has been removed from hidden WIP mobs\nStray has been removed from hidden WIP mobs\nSkeleton has been removed from hidden WIP mobs...why was it there in the first place lol?\nYou no longer require \"Holiday Creator Features\" to use\nAdded functions for easier morphing",
-		"name": "Cda's Morph v0.0.3 [BP]",
+		"description": "§lRead the Description before using§r\nMorph into any mob that you kill!\nMorphing will have bugs; please report any and all bugs.\n\n§lMade by §ccda94581§r\n\nIf you have issues, contact me at the links found in the description of https://mcpedl.com/cdas-morph/ Spamming angry emojis doesn't help me help you. Before you say something along the lines of \"Please add...\" on a place other than MCPEDL, again, contact me at the links found at the website above. I can't help you on MCPE Add-ons, I can't help you on whatever other weird website this has popped up to. I can only help you on MCPEDL and the links I posted in the description.\n\n§lChangelog Version 0.0.4:\n§rBlaze renders (#25)\nMobs that should burn in fire will burn (#5)\nGhast visual size is now correct (#18)\nVex visual size is now correct (#23)\nZombie Villager renders properly with outer layer (#24)\nProgress: Phantoms are more controllable (#27) as well as Ghasts\nVex no longer breaks worlds (#28)\nFixed some scaling due to the player being scaled smaller\nGhast has been removed from hidden WIP mobs\nVex has been removed from hidden WIP mobs\nZombie Villager has been removed from hidden WIP mobs\nUpdated properly for 1.16.220",
+		"name": "Cda's Morph v0.0.4 [BP]",
 		"uuid": "252c6750-6c0a-4131-8e86-201b6aa37605",
 		"min_engine_version": [ 1, 16, 201 ],
-		"version": [ 0, 0, 3 ]
+		"version": [ 0, 0, 4 ]
 	},
 	"modules": [
 		{
 			"type": "data",
 			"uuid": "2bd868a4-c2be-4026-812e-723bad075ca0",
-			"version": [ 0, 0, 3 ]
+			"version": [ 0, 0, 4 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "bbc91fc1-aff3-457b-bf2c-cbec330fd188",
-			"version": [ 0, 0, 3 ]
+			"version": [ 0, 0, 4 ]
 		}
 	],
 	"metadata": {

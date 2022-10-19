@@ -37,8 +37,7 @@
         "cda002_wither_skeleton": "skeleton",
         "cda002_zoglin": "zoglin",
         "cda002_zombie": "zombie",
-        "cda002_zombie_villager": "zombie_villager_v2",
-        "cda002_zombie_villager_masked": "zombie_villager_v2_masked"
+        "cda002_zombie_villager": "zombie_villager_v2"
       },
       "textures": {
         "default": "textures/entity/steve",
@@ -107,7 +106,7 @@
         "cda002_zombie_villager": "geometry.zombie.villager_v2"
       },
       "scripts": {
-        "scale": "0.9375",
+        "scale": "query.variant == 7 ? 4.5 : (query.variant == 21 ?  0.4 : (query.variant == 0 ? 0.9375 : 1))",
         "initialize": [
           "variable.is_holding_right = 0.0;",
           "variable.is_blinking = 0.0;",

@@ -364,7 +364,7 @@
         { "bodyLayer_*": "query.mark_variant == 1 ? Material.cda002_silverfish_body_layer" },
         { "*": "query.mark_variant == 2 ? Material.cda002_slime_outer" },
         { "*": "query.mark_variant == 3 ? Material.cda002_stray_overlay" },
-        { "*": "query.mark_variant == 4 ? Material.cda002_zombie_villager_masked" }
+        { "*": "query.mark_variant == 4 ? Material.cda002_zombie_villager" }
       ],
       "textures": [ "Array.textures[query.mark_variant]" ],
       "part_visibility": [
@@ -402,7 +402,7 @@
         { "bodyLayer_*": "query.mark_variant == 1 ? Material.cda002_silverfish_body_layer" },
         { "*": "query.mark_variant == 2 ? Material.cda002_slime_outer" },
         { "*": "query.mark_variant == 3 ? Material.cda002_stray_overlay" },
-        { "*": "query.mark_variant == 4 ? Material.cda002_zombie_villager_masked" }
+        { "*": "query.mark_variant == 4 ? Material.cda002_zombie_villager" }
       ],
       "textures": [ "Array.textures[query.mark_variant]" ],
       "part_visibility": [
@@ -447,7 +447,7 @@
         { "bodyLayer_*": "query.mark_variant == 1 ? Material.cda002_silverfish_body_layer" },
         { "*": "query.mark_variant == 2 ? Material.cda002_slime_outer" },
         { "*": "query.mark_variant == 3 ? Material.cda002_stray_overlay" },
-        { "*": "query.mark_variant == 4 ? Material.cda002_zombie_villager_masked" }
+        { "*": "query.mark_variant == 4 ? Material.cda002_zombie_villager" }
       ],
       "textures": [ "Array.textures[query.mark_variant]" ],
       "part_visibility": [

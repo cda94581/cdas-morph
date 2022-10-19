@@ -9,13 +9,9 @@ Some mobs are hidden due to many bugs as listed below
 
 WIP Reasons - https://github.com/cda94581/Community_Collabs/issues?q=is%3Aopen+is%3Aissue+label%3A%22%E2%9A%A0+Bug%22+label%3A%22%F0%9F%A7%9F%E2%80%8D%E2%99%82%EF%B8%8F+Cda%27s+Morph+Add-on%22
 #16 Blaze only renders head and 1 'leg'
-#25 Blaze doesn't render
 #17 Elder Guardian doesn't render spikes correctly
-#18 Ghast visual size too small
 #19 Guardian doesn't render spikes correctly
 #20 Most of Silverfish body renders incorrectly
-#23 Vex oversized
-#24 Zombie Villager doesn't render with outer layer
 
 You can still unlock these by running "/function cda002/", followed
 by one of the mobs listed above, replacing
@@ -29,7 +25,6 @@ the owner and use the same license (CC-BY-SA-4.0)
 
 Known Issues - https://github.com/cda94581/Community_Collabs/issues?q=is%3Aopen+is%3Aissue+label%3A%22%E2%9A%A0+Bug%22+label%3A%22%F0%9F%A7%9F%E2%80%8D%E2%99%82%EF%B8%8F+Cda%27s+Morph+Add-on%22
 #4 Lack of movement animations
-#5 Sometimes will not burn in daylight/lava for entities that should burn, because others have "minecraft:fire_immune" component, relogging fixes this
 #6 Camera won't adjust based on entity size
 #7 Held items may render in the wrong spot
 #8 Mobs like zombie won't hold out their arms
@@ -41,6 +36,20 @@ Known Issues - https://github.com/cda94581/Community_Collabs/issues?q=is%3Aopen+
 If you would like to help report issues, suggest features, and more, head over to https://github.com/cda94581/Community_Collabs/tree/main/Add-ons/Cda's%20Morph to see what you can do!
 
 Changelog
+v0.0.4 - 2021/04/11 (YYYY/MM/DD)
+Blaze renders (#25)
+Mobs that should burn in fire will burn (#5)
+Ghast visual size is now correct (#18)
+Vex visual size is now correct (#23)
+Zombie Villager renders properly with outer layer (#24)
+Progress: Phantoms are more controllable (#27) as well as Ghasts
+Vex no longer breaks worlds (#28)
+Fixed some scaling due to the player being scaled smaller
+Ghast has been removed from hidden WIP mobs
+Vex has been removed from hidden WIP mobs
+Zombie Villager has been removed from hidden WIP mobs
+Updated properly for 1.16.220
+---
 v0.0.3 - 2021/03/27 (YYYY/MM/DD)
 Added el_GR (Greek) translation (Thanks Google)
 Slime now renders mostly properly (#21)

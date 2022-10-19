@@ -8,11 +8,17 @@
       "is_experimental": false,
       "scripts": {
         "animate": [
-          "cda002_player"
+          "cda002_controller_player_morph",
+          "cda002_controller_player_abilities_fire-immune",
+          "cda002_controller_player_abilities_fly"
         ]
       },
       "animations": {
-        "cda002_player": "controller.animation.cda002.player"
+        "cda002_controller_player_morph": "controller.animation.cda002.player.morph",
+        "cda002_controller_player_abilities_fire-immune": "controller.animation.cda002.player.abilities.fire_immune",
+        "cda002_controller_player_abilities_fly": "controller.animation.cda002.player.abilities.fly",
+        "cda002_player_abilities_fire-immune": "animation.cda002.player.abilities.fire_immune",
+        "cda002_player_abilities_fly": "animation.cda002.player.abilities.fly"
       }
     },
     "component_groups": {
@@ -229,7 +235,6 @@
             }
           ]
         },
-        "minecraft:fire_immune": {},
         "minecraft:nameable": {},
         "minecraft:type_family": {
           "family": [
@@ -561,7 +566,6 @@
         "minecraft:mark_variant": {
           "value": -1
         },
-        "minecraft:fire_immune": {},
         "minecraft:health": {
           "value": 10,
           "max": 10
@@ -598,6 +602,10 @@
         "minecraft:pushable": {
           "is_pushable": true,
           "is_pushable_by_piston": true
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
         }
       },
       "cda002:guardian": {
@@ -833,7 +841,6 @@
           "suffocate_time": 0,
           "breathes_lava": true
         },
-        "minecraft:fire_immune": {},
         "minecraft:burns_in_daylight": false,
         "minecraft:damage_sensor": {
           "triggers": {
@@ -1511,13 +1518,16 @@
         "minecraft:movement.basic": {},
         "minecraft:jump.static": {},
         "minecraft:can_climb": {},
-        "minecraft:fire_immune": {},
-        "minecraft:despawn": {
-          "despawn_from_distance": {}
-        },
         "minecraft:physics": {
-          "has_gravity": false,
+          "has_gravity": true,
           "has_collision": false
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/cda002/vex.json"
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
         }
       },
       "cda002:vindicator": {
@@ -1670,7 +1680,6 @@
         "minecraft:scale": {
           "value": 1.2
         },
-        "minecraft:fire_immune": {},
         "minecraft:type_family": {
           "family": [
             "wither",
@@ -1714,7 +1723,6 @@
         "minecraft:movement.basic": {},
         "minecraft:jump.static": {},
         "minecraft:can_climb": {},
-        "minecraft:fire_immune": {},
         "minecraft:leashable": {
           "soft_distance": 4.0,
           "hard_distance": 6.0,
