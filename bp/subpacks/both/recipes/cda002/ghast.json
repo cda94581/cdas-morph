@@ -1,1 +1,0 @@
-{"format_version":"1.12.0","minecraft:recipe_shapeless":{"description":{"identifier":"cda002:ghast"},"tags":["crafting_table"],"ingredients":[{"item":"minecraft:ghast_tear","count":1}],"result":{"item":"cda002:ghast"}}}

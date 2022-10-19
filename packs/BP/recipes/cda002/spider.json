@@ -1,0 +1,18 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cda002:spider"
+		},
+		"tags": [ "crafting_table" ],
+		"ingredients": [
+			{
+				"item": "minecraft:spider_eye",
+				"count": 1
+			}
+		],
+		"result": {
+			"item": "cda002:spider"
+		}
+	}
+}
