@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"minecraft:item": {
 		"description": {
-			"identifier": "cda002:zombie"
+			"identifier": "cda002:wolf"
 		},
 		"components": {
 			"minecraft:stacked_by_data": true,

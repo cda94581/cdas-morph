@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cda002:turtle"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 1000000,
+			"minecraft:food": {
+				"cooldown_type": "chorusfruit",
+				"cooldown_time": 20,
+				"can_always_eat": true
+			}
+		}
+	}
+}

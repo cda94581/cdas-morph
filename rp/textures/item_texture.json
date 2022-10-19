@@ -85,6 +85,129 @@
 		},
 		"cda002_zombie_villager": {
 			"textures": "textures/cda002/zombie_villager"
+		},
+		"cda002_bee": {
+			"textures": "textures/cda002/bee"
+		},
+		"cda002_cave_spider": {
+			"textures": "textures/cda002/cave_spider"
+		},
+		"cda002_dolphin": {
+			"textures": "textures/cda002/dolphin"
+		},
+		"cda002_enderman": {
+			"textures": "textures/cda002/enderman"
+		},
+		"cda002_iron_golem": {
+			"textures": "textures/cda002/iron_golem"
+		},
+		"cda002_llama": {
+			"textures": "textures/cda002/llama"
+		},
+		"cda002_piglin": {
+			"textures": "textures/cda002/piglin"
+		},
+		"cda002_panda": {
+			"textures": "textures/cda002/panda"
+		},
+		"cda002_polar_bear": {
+			"textures": "textures/cda002/polar_bear"
+		},
+		"cda002_spider": {
+			"textures": "textures/cda002/spider"
+		},
+		"cda002_wolf": {
+			"textures": "textures/cda002/wolf"
+		},
+		"cda002_zombified_piglin": {
+			"textures": "textures/cda002/zombified_piglin"
+		},
+		"cda002_bat": {
+			"textures": "textures/cda002/bat"
+		},
+		"cda002_cat": {
+			"textures": "textures/cda002/cat"
+		},
+		"cda002_chicken": {
+			"textures": "textures/cda002/chicken"
+		},
+		"cda002_cod": {
+			"textures": "textures/cda002/cod"
+		},
+		"cda002_cow": {
+			"textures": "textures/cda002/cow"
+		},
+		"cda002_donkey": {
+			"textures": "textures/cda002/donkey"
+		},
+		"cda002_fox": {
+			"textures": "textures/cda002/fox"
+		},
+		"cda002_horse": {
+			"textures": "textures/cda002/horse"
+		},
+		"cda002_mooshroom": {
+			"textures": "textures/cda002/mooshroom"
+		},
+		"cda002_mule": {
+			"textures": "textures/cda002/mule"
+		},
+		"cda002_ocelot": {
+			"textures": "textures/cda002/ocelot"
+		},
+		"cda002_parrot": {
+			"textures": "textures/cda002/parrot"
+		},
+		"cda002_pig": {
+			"textures": "textures/cda002/pig"
+		},
+		"cda002_pufferfish": {
+			"textures": "textures/cda002/pufferfish"
+		},
+		"cda002_rabbit": {
+			"textures": "textures/cda002/rabbit"
+		},
+		"cda002_salmon": {
+			"textures": "textures/cda002/salmon"
+		},
+		"cda002_sheep": {
+			"textures": "textures/cda002/sheep"
+		},
+		"cda002_skeleton_horse": {
+			"textures": "textures/cda002/skeleton_horse"
+		},
+		"cda002_snow_golem": {
+			"textures": "textures/cda002/snow_golem"
+		},
+		"cda002_squid": {
+			"textures": "textures/cda002/squid"
+		},
+		"cda002_strider": {
+			"textures": "textures/cda002/strider"
+		},
+		"cda002_tropical_fish": {
+			"textures": "textures/cda002/tropical_fish"
+		},
+		"cda002_turtle": {
+			"textures": "textures/cda002/turtle"
+		},
+		"cda002_villager": {
+			"textures": "textures/cda002/villager"
+		},
+		"cda002_wandering_trader": {
+			"textures": "textures/cda002/wandering_trader"
+		},
+		"cda002_ender_dragon": {
+			"textures": "textures/cda002/ender_dragon"
+		},
+		"cda002_wither": {
+			"textures": "textures/cda002/wither"
+		},
+		"cda002_agent": {
+			"textures": "textures/cda002/agent"
+		},
+		"cda002_npc": {
+			"textures": "textures/cda002/npc"
 		}
 	}
 }

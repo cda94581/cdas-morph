@@ -33,7 +33,48 @@
 						{ "wither_skeleton": "query.get_equipped_item_name(0) == 'wither_skeleton' && query.is_using_item" },
 						{ "zoglin": "query.get_equipped_item_name(0) == 'zoglin' && query.is_using_item" },
 						{ "zombie": "query.get_equipped_item_name(0) == 'zombie' && query.is_using_item" },
-						{ "zombie_villager": "query.get_equipped_item_name(0) == 'zombie_villager' && query.is_using_item" }
+						{ "zombie_villager": "query.get_equipped_item_name(0) == 'zombie_villager' && query.is_using_item" },
+						{ "bee": "query.get_equipped_item_name(0) == 'bee' && query.is_using_item" },
+						{ "cave_spider": "query.get_equipped_item_name(0) == 'cave_spider' && query.is_using_item" },
+						{ "dolphin": "query.get_equipped_item_name(0) == 'dolphin' && query.is_using_item" },
+						{ "enderman": "query.get_equipped_item_name(0) == 'enderman' && query.is_using_item" },
+						{ "iron_golem": "query.get_equipped_item_name(0) == 'iron_golem' && query.is_using_item" },
+						{ "llama": "query.get_equipped_item_name(0) == 'llama' && query.is_using_item" },
+						{ "piglin": "query.get_equipped_item_name(0) == 'piglin' && query.is_using_item" },
+						{ "panda": "query.get_equipped_item_name(0) == 'panda' && query.is_using_item" },
+						{ "polar_bear": "query.get_equipped_item_name(0) == 'polar_bear' && query.is_using_item" },
+						{ "spider": "query.get_equipped_item_name(0) == 'spider' && query.is_using_item" },
+						{ "wolf": "query.get_equipped_item_name(0) == 'wolf' && query.is_using_item" },
+						{ "zombified_piglin": "query.get_equipped_item_name(0) == 'zombified_piglin' && query.is_using_item" },
+						{ "bat": "query.get_equipped_item_name(0) == 'bat' && query.is_using_item" },
+						{ "cat": "query.get_equipped_item_name(0) == 'cat' && query.is_using_item" },
+						{ "chicken": "query.get_equipped_item_name(0) == 'chicken' && query.is_using_item" },
+						{ "cod": "query.get_equipped_item_name(0) == 'cod' && query.is_using_item" },
+						{ "cow": "query.get_equipped_item_name(0) == 'cow' && query.is_using_item" },
+						{ "donkey": "query.get_equipped_item_name(0) == 'donkey' && query.is_using_item" },
+						{ "fox": "query.get_equipped_item_name(0) == 'fox' && query.is_using_item" },
+						{ "horse": "query.get_equipped_item_name(0) == 'horse' && query.is_using_item" },
+						{ "mooshroom": "query.get_equipped_item_name(0) == 'mooshroom' && query.is_using_item" },
+						{ "mule": "query.get_equipped_item_name(0) == 'mule' && query.is_using_item" },
+						{ "ocelot": "query.get_equipped_item_name(0) == 'ocelot' && query.is_using_item" },
+						{ "parrot": "query.get_equipped_item_name(0) == 'parrot' && query.is_using_item" },
+						{ "pig": "query.get_equipped_item_name(0) == 'pig' && query.is_using_item" },
+						{ "pufferfish": "query.get_equipped_item_name(0) == 'pufferfish' && query.is_using_item" },
+						{ "rabbit": "query.get_equipped_item_name(0) == 'rabbit' && query.is_using_item" },
+						{ "salmon": "query.get_equipped_item_name(0) == 'salmon' && query.is_using_item" },
+						{ "sheep": "query.get_equipped_item_name(0) == 'sheep' && query.is_using_item" },
+						{ "skeleton_horse": "query.get_equipped_item_name(0) == 'skeleton_horse' && query.is_using_item" },
+						{ "snow_golem": "query.get_equipped_item_name(0) == 'snow_golem' && query.is_using_item" },
+						{ "squid": "query.get_equipped_item_name(0) == 'squid' && query.is_using_item" },
+						{ "strider": "query.get_equipped_item_name(0) == 'strider' && query.is_using_item" },
+						{ "tropical_fish": "query.get_equipped_item_name(0) == 'tropical_fish' && query.is_using_item" },
+						{ "turtle": "query.get_equipped_item_name(0) == 'turtle' && query.is_using_item" },
+						{ "villager": "query.get_equipped_item_name(0) == 'villager' && query.is_using_item" },
+						{ "wandering_trader": "query.get_equipped_item_name(0) == 'wandering_trader' && query.is_using_item" },
+						{ "ender_dragon": "query.get_equipped_item_name(0) == 'ender_dragon' && query.is_using_item" },
+						{ "wither": "query.get_equipped_item_name(0) == 'wither' && query.is_using_item" },
+						{ "agent": "query.get_equipped_item_name(0) == 'agent' && query.is_using_item" },
+						{ "npc": "query.get_equipped_item_name(0) == 'npc' && query.is_using_item" }
 					]
 				},
 				"player": {
@@ -147,6 +188,170 @@
 				"zombie_villager": {
 					"on_entry": [ "/function cda002/zombie_villager" ],
 					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'zombie_villager' || !query.is_using_item" }]
+				},
+				"bee": {
+					"on_entry": [ "/function cda002/bee" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'bee' || !query.is_using_item" }]
+				},
+				"cave_spider": {
+					"on_entry": [ "/function cda002/cave_spider" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'cave_spider' || !query.is_using_item" }]
+				},
+				"dolphin": {
+					"on_entry": [ "/function cda002/dolphin" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'dolphin' || !query.is_using_item" }]
+				},
+				"enderman": {
+					"on_entry": [ "/function cda002/enderman" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'enderman' || !query.is_using_item" }]
+				},
+				"iron_golem": {
+					"on_entry": [ "/function cda002/iron_golem" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'iron_golem' || !query.is_using_item" }]
+				},
+				"llama": {
+					"on_entry": [ "/function cda002/llama" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'llama' || !query.is_using_item" }]
+				},
+				"piglin": {
+					"on_entry": [ "/function cda002/piglin" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'piglin' || !query.is_using_item" }]
+				},
+				"panda": {
+					"on_entry": [ "/function cda002/panda" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'panda' || !query.is_using_item" }]
+				},
+				"polar_bear": {
+					"on_entry": [ "/function cda002/polar_bear" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'polar_bear' || !query.is_using_item" }]
+				},
+				"spider": {
+					"on_entry": [ "/function cda002/spider" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'spider' || !query.is_using_item" }]
+				},
+				"wolf": {
+					"on_entry": [ "/function cda002/wolf" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'wolf' || !query.is_using_item" }]
+				},
+				"zombified_piglin": {
+					"on_entry": [ "/function cda002/zombified_piglin" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'zombified_piglin' || !query.is_using_item" }]
+				},
+				"bat": {
+					"on_entry": [ "/function cda002/bat" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'bat' || !query.is_using_item" }]
+				},
+				"cat": {
+					"on_entry": [ "/function cda002/cat" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'cat' || !query.is_using_item" }]
+				},
+				"chicken": {
+					"on_entry": [ "/function cda002/chicken" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'chicken' || !query.is_using_item" }]
+				},
+				"cod": {
+					"on_entry": [ "/function cda002/cod" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'cod' || !query.is_using_item" }]
+				},
+				"cow": {
+					"on_entry": [ "/function cda002/cow" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'cow' || !query.is_using_item" }]
+				},
+				"donkey": {
+					"on_entry": [ "/function cda002/donkey" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'donkey' || !query.is_using_item" }]
+				},
+				"fox": {
+					"on_entry": [ "/function cda002/fox" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'fox' || !query.is_using_item" }]
+				},
+				"horse": {
+					"on_entry": [ "/function cda002/horse" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'horse' || !query.is_using_item" }]
+				},
+				"mooshroom": {
+					"on_entry": [ "/function cda002/mooshroom" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'mooshroom' || !query.is_using_item" }]
+				},
+				"mule": {
+					"on_entry": [ "/function cda002/mule" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'mule' || !query.is_using_item" }]
+				},
+				"ocelot": {
+					"on_entry": [ "/function cda002/ocelot" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'ocelot' || !query.is_using_item" }]
+				},
+				"parrot": {
+					"on_entry": [ "/function cda002/parrot" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'parrot' || !query.is_using_item" }]
+				},
+				"pig": {
+					"on_entry": [ "/function cda002/pig" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'pig' || !query.is_using_item" }]
+				},
+				"pufferfish": {
+					"on_entry": [ "/function cda002/pufferfish" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'pufferfish' || !query.is_using_item" }]
+				},
+				"rabbit": {
+					"on_entry": [ "/function cda002/rabbit" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'rabbit' || !query.is_using_item" }]
+				},
+				"salmon": {
+					"on_entry": [ "/function cda002/salmon" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'salmon' || !query.is_using_item" }]
+				},
+				"sheep": {
+					"on_entry": [ "/function cda002/sheep" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'sheep' || !query.is_using_item" }]
+				},
+				"skeleton_horse": {
+					"on_entry": [ "/function cda002/skeleton_horse" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'skeleton_horse' || !query.is_using_item" }]
+				},
+				"snow_golem": {
+					"on_entry": [ "/function cda002/snow_golem" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'snow_golem' || !query.is_using_item" }]
+				},
+				"squid": {
+					"on_entry": [ "/function cda002/squid" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'squid' || !query.is_using_item" }]
+				},
+				"strider": {
+					"on_entry": [ "/function cda002/strider" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'strider' || !query.is_using_item" }]
+				},
+				"tropical_fish": {
+					"on_entry": [ "/function cda002/tropical_fish" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'tropical_fish' || !query.is_using_item" }]
+				},
+				"turtle": {
+					"on_entry": [ "/function cda002/turtle" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'turtle' || !query.is_using_item" }]
+				},
+				"villager": {
+					"on_entry": [ "/function cda002/villager" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'villager' || !query.is_using_item" }]
+				},
+				"wandering_trader": {
+					"on_entry": [ "/function cda002/wandering_trader" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'wandering_trader' || !query.is_using_item" }]
+				},
+				"ender_dragon": {
+					"on_entry": [ "/function cda002/ender_dragon" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'ender_dragon' || !query.is_using_item" }]
+				},
+				"wither": {
+					"on_entry": [ "/function cda002/wither" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'wither' || !query.is_using_item" }]
+				},
+				"agent": {
+					"on_entry": [ "/function cda002/agent" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'agent' || !query.is_using_item" }]
+				},
+				"npc": {
+					"on_entry": [ "/function cda002/npc" ],
+					"transitions": [{ "default": "query.get_equipped_item_name(0) != 'npc' || !query.is_using_item" }]
 				}
 			}
 		},
@@ -154,11 +359,11 @@
 			"initial_state": "default",
 			"states": {
 				"default": {
-					"transitions": [{ "fire_immune": "query.variant == 1 || query.variant == 7 || query.variant == 11 || query.variant == 21 || query.variant == 24 || query.variant == 25" }]
+					"transitions": [{ "fire_immune": "query.variant == 1 || query.variant == 7 || query.variant == 11 || query.variant == 21 || query.variant == 24 || query.variant == 25 || query.variant == 39 || query.variant == 60 || query.variant == 65 || query.variant == 66 || query.variant == 67 || query.variant == 68" }]
 				},
 				"fire_immune": {
 					"animations": [ "cda002_player_abilities_fire-immune" ],
-					"transitions": [{ "default": "query.variant != 1 && query.variant != 7 && query.variant != 11 && query.variant != 21 && query.variant != 24 && query.variant != 25" }]
+					"transitions": [{ "default": "query.variant != 1 && query.variant != 7 && query.variant != 11 && query.variant != 21 && query.variant != 24 && query.variant != 25 && query.variant != 39 && query.variant != 60 && query.variant != 65 && query.variant != 66 && query.variant != 67 && query.variant != 68" }]
 				}
 			}
 		},
@@ -166,11 +371,11 @@
 			"initial_state": "default",
 			"states": {
 				"default": {
-					"transitions": [{ "fly": "query.variant == 7 || query.variant == 12 || query.variant == 21" }]
+					"transitions": [{ "fly": "query.variant == 1 || query.variant == 7 || query.variant == 12 || query.variant == 21 || query.variant == 28 || query.variant == 40 || query.variant == 51 || query.variant == 65 || query.variant == 66" }]
 				},
 				"fly": {
 					"animations": [ "cda002_player_abilities_fly" ],
-					"transitions": [{ "default": "query.variant != 7 && query.variant != 12 && query.variant != 21" }]
+					"transitions": [{ "default": "query.variant != 1 && query.variant != 7 && query.variant != 12 && query.variant != 21 && query.variant != 28 && query.variant != 40 && query.variant != 51 && query.variant != 65 && query.variant != 66" }]
 				}
 			}
 		}

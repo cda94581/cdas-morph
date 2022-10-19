@@ -190,6 +190,10 @@
         },
         "minecraft:underwater_movement": {
           "value": 0.02
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
         }
       },
       "cda002:blaze": {
@@ -250,6 +254,13 @@
         },
         "minecraft:attack": {
           "damage": 6
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:creeper": {
@@ -320,6 +331,9 @@
         "minecraft:pushable": {
           "is_pushable": true,
           "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:drowned": {
@@ -501,6 +515,9 @@
         "minecraft:pushable": {
           "is_pushable": true,
           "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:evoker": {
@@ -557,6 +574,9 @@
         "minecraft:pushable": {
           "is_pushable": true,
           "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:ghast": {
@@ -606,6 +626,9 @@
         "minecraft:breathable": {
           "total_supply": 15,
           "suffocate_time": 0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:guardian": {
@@ -740,6 +763,9 @@
             3,
             9
           ]
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:husk": {
@@ -820,6 +846,9 @@
         },
         "minecraft:scale": {
           "value": 1.0625
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:magma_cube": {
@@ -874,6 +903,9 @@
         },
         "minecraft:attack": {
           "damage": 2
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:phantom": {
@@ -939,7 +971,10 @@
           "start_speed": 0.1,
           "speed_when_turning": 0.2
         },
-        "minecraft:burns_in_daylight": {}
+        "minecraft:burns_in_daylight": {},
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
       },
       "cda002:piglin_brute": {
         "minecraft:variant": {
@@ -997,6 +1032,9 @@
         },
         "minecraft:attack": {
           "damage": 7
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:pillager": {
@@ -1055,6 +1093,9 @@
         },
         "minecraft:attack": {
           "damage": 3
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:ravager": {
@@ -1183,6 +1224,9 @@
             "ravager",
             "mob"
           ]
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:shulker": {
@@ -1231,7 +1275,10 @@
           "def": "minecraft:shulker_bullet"
         },
         "minecraft:movement.basic": {},
-        "minecraft:physics": {}
+        "minecraft:physics": {},
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
       },
       "cda002:silverfish": {
         "minecraft:variant": {
@@ -1290,6 +1337,9 @@
         "minecraft:pushable": {
           "is_pushable": true,
           "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:skeleton": {
@@ -1354,6 +1404,9 @@
         },
         "minecraft:attack": {
           "damage": 3
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:slime": {
@@ -1417,6 +1470,9 @@
         },
         "minecraft:loot": {
           "table": "loot_tables/entities/slime.json"
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:stray": {
@@ -1485,6 +1541,9 @@
           "damage": 3,
           "effect_name": "slowness",
           "effect_duration": 10
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:vex": {
@@ -1528,6 +1587,9 @@
         "minecraft:breathable": {
           "total_supply": 15,
           "suffocate_time": 0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:vindicator": {
@@ -1586,6 +1648,9 @@
         "minecraft:pushable": {
           "is_pushable": true,
           "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:witch": {
@@ -1641,6 +1706,9 @@
         "minecraft:pushable": {
           "is_pushable": true,
           "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:wither_skeleton": {
@@ -1693,6 +1761,9 @@
         "minecraft:pushable": {
           "is_pushable": true,
           "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:zoglin": {
@@ -1763,6 +1834,9 @@
             3,
             8
           ]
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:zombie": {
@@ -1839,6 +1913,9 @@
             ],
             "lock_rider_rotation": 0
           }
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       },
       "cda002:zombie_villager": {
@@ -1905,6 +1982,2761 @@
               -0.35
             ]
           }
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:bee": {
+        "minecraft:variant": {
+          "value": 28
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:type_family": {
+          "family": [
+            "bee",
+            "mob",
+            "arthropod"
+          ]
+        },
+        "minecraft:breathable": {
+          "totalSupply": 15,
+          "suffocateTime": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.55,
+          "height": 0.5
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:flying_speed": {
+          "value": 0.15
+        },
+        "minecraft:movement.hover": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_fly": {},
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:attack": {
+          "damage": 2,
+          "effect_name": "poison",
+          "effect_duration": 10
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:cave_spider": {
+        "minecraft:variant": {
+          "value": 29
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "cavespider",
+            "monster",
+            "arthropod",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/spider.json"
+        },
+        "minecraft:collision_box": {
+          "width": 0.7,
+          "height": 0.5
+        },
+        "minecraft:health": {
+          "value": 12,
+          "max": 12
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [
+              0.0,
+              0.3,
+              0.0
+            ]
+          }
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:attack": {
+          "damage": 2,
+          "effect_name": "poison",
+          "effect_duration": 7
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:dolphin": {
+        "minecraft:variant": {
+          "value": 30
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "dolphin",
+            "mob"
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.9,
+          "height": 0.6
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 240,
+          "suffocate_time": 0,
+          "breathes_air": true,
+          "breathes_water": false,
+          "generates_bubbles": false
+        },
+        "minecraft:attack": {
+          "damage": 3
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.15
+        },
+        "minecraft:jump.static": {
+          "jump_power": 0.6
+        },
+        "minecraft:can_climb": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/dolphin.json"
+        }
+      },
+      "cda002:enderman": {
+        "minecraft:variant": {
+          "value": 31
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "enderman",
+            "monster",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/enderman.json"
+        },
+        "minecraft:health": {
+          "value": 40,
+          "max": 40
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            },
+            {
+              "filters": {
+                "test": "in_water_or_rain",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "drowning",
+              "damage_per_tick": 1
+            }
+          ]
+        },
+        "minecraft:attack": {
+          "damage": 7
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 2.9
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:iron_golem": {
+        "minecraft:variant": {
+          "value": 32
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:collision_box": {
+          "width": 1.4,
+          "height": 2.9
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/iron_golem.json"
+        },
+        "minecraft:health": {
+          "value": 100,
+          "max": 100
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:attack": {
+          "damage": {
+            "range_min": 7,
+            "range_max": 21
+          }
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:knockback_resistance": {
+          "value": 1.0
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {
+          "mass": 2.0
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:llama": {
+        "minecraft:variant": {
+          "value": 33
+        },
+        "minecraft:mark_variant": {
+          "value": 5
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:health": {
+          "value": {
+            "range_min": 15,
+            "range_max": 30
+          }
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0,
+          "can_be_stolen": true
+        },
+        "minecraft:balloonable": {},
+        "minecraft:shooter": {
+          "def": "minecraft:llama_spit"
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/llama.json"
+        },
+        "minecraft:collision_box": {
+          "width": 0.9,
+          "height": 1.87
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:piglin": {
+        "minecraft:variant": {
+          "value": 34
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 1.9
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:health": {
+          "value": 16,
+          "max": 16
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/piglin.json"
+        },
+        "minecraft:annotation.open_door": {},
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:inventory": {
+          "inventory_size": 8
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:attack": {
+          "damage": 5
+        },
+        "minecraft:movement": {
+          "value": 0.35
+        },
+        "minecraft:barter": {
+          "barter_table": "loot_tables/entities/piglin_barter.json",
+          "cooldown_after_being_attacked": 20
+        },
+        "minecraft:type_family": {
+          "family": [
+            "piglin",
+            "monster"
+          ]
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:panda": {
+        "minecraft:variant": {
+          "value": 35
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:scale": {
+          "value": 1.0
+        },
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:collision_box": {
+          "width": 1.7,
+          "height": 1.5
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.15
+        },
+        "minecraft:water_movement": {
+          "drag_factor": 0.98
+        },
+        "minecraft:balloonable": {
+          "mass": 1.5
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [
+              0.0,
+              1.105,
+              0.0
+            ]
+          }
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/panda.json"
+        },
+        "minecraft:attack": {
+          "damage": 2.0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+        // Entity Code
+        // Other components (If necessary)
+      },
+      "cda002:polar_bear": {
+        "minecraft:variant": {
+          "value": 36
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:health": {
+          "value": 30
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 1.3,
+          "height": 1.4
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:water_movement": {
+          "drag_factor": 0.98
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/polar_bear.json"
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+        // Entity Code
+        // Other components (If necessary)
+      },
+      "cda002:spider": {
+        "minecraft:variant": {
+          "value": 37
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "spider",
+            "monster",
+            "mob",
+            "arthropod"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/spider.json"
+        },
+        "minecraft:collision_box": {
+          "width": 1.4,
+          "height": 0.9
+        },
+        "minecraft:health": {
+          "value": 16,
+          "max": 16
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:attack": {
+          "damage": 3
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [
+              0.0,
+              0.54,
+              -0.1
+            ]
+          }
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:wolf": {
+        "minecraft:variant": {
+          "value": 38
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf.json"
+        },
+        "minecraft:type_family": {
+          "family": [
+            "wolf",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 0.8
+        },
+        "minecraft:health": {
+          "value": 8,
+          "max": 8
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:attack": {
+          "damage": 3
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:zombified_piglin": {
+        "minecraft:variant": {
+          "value": 39
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [
+              0.0,
+              1.1,
+              -0.35
+            ],
+            "lock_rider_rotation": 0
+          }
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0,
+          "breathes_water": true
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 1.9
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:type_family": {
+          "family": [
+            "zombie_pigman",
+            "undead",
+            "monster",
+            "mob"
+          ]
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/zombie_pigman.json"
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.23
+        },
+        "minecraft:attack": {
+          "damage": 5
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+        // Entity Code
+        // Other components (If necessary)
+      },
+      "cda002:bat": {
+        "minecraft:variant": {
+          "value": 40
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "bat",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.5,
+          "height": 0.9
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_fly": {},
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        },
+        "minecraft:physics": {},
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:cat": {
+        "minecraft:variant": {
+          "value": 41
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/cat.json"
+        },
+        "minecraft:scale": {
+          "value": 0.8
+        },
+        "minecraft:attack_damage": {
+          "value": 4
+        },
+        "minecraft:type_family": {
+          "family": [
+            "cat",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 0.7
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:chicken": {
+        "minecraft:variant": {
+          "value": 42
+        },
+        "minecraft:mark_variant": {
+          "value": 6
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/chicken.json"
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [
+              0.0,
+              0.4,
+              0.0
+            ]
+          }
+        },
+        "minecraft:spawn_entity": {
+          "entities": {
+            "min_wait_time": 300,
+            "max_wait_time": 600,
+            "spawn_sound": "plop",
+            "spawn_item": "egg",
+            "filters": {
+              "test": "rider_count",
+              "subject": "self",
+              "operator": "==",
+              "value": 0
+            }
+          }
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 0.8
+        },
+        "minecraft:health": {
+          "value": 4,
+          "max": 4
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {
+          "mass": 0.5
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:cod": {
+        "minecraft:variant": {
+          "value": 43
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "cod",
+            "fish"
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 0.3
+        },
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/fish.json"
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0,
+          "breathes_air": false,
+          "breathes_water": true
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.1
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:movement.sway": {
+          "sway_amplitude": 0.0
+        }
+      },
+      "cda002:cow": {
+        "minecraft:variant": {
+          "value": 44
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/cow.json"
+        },
+        "minecraft:type_family": {
+          "family": [
+            "cow",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:collision_box": {
+          "width": 0.9,
+          "height": 1.3
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {},
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [
+              0.0,
+              1.105,
+              0.0
+            ]
+          }
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:donkey": {
+        "minecraft:variant": {
+          "value": 45
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/horse.json"
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 1.4,
+          "height": 1.6
+        },
+        "minecraft:health": {
+          "value": {
+            "range_min": 15,
+            "range_max": 30
+          }
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.175
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:nameable": {},
+        "minecraft:horse.jump_strength": {
+          "value": 0.5
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+        // Entity Code
+        // Other components (If necessary)
+      },
+      "cda002:fox": {
+        "minecraft:variant": {
+          "value": 46
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/fox.json"
+        },
+        "minecraft:type_family": {
+          "family": [
+            "fox",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "totalSupply": 15,
+          "suffocateTime": 0
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 0.7
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:attack": {
+          "damage": 2
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "on_damage": {
+                "filters": {
+                  "test": "is_block",
+                  "subject": "block",
+                  "value": "minecraft:sweet_berry_bush"
+                }
+              },
+              "deals_damage": false
+            }
+          ]
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {
+          "mass": 0.6
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:horse": {
+        "minecraft:variant": {
+          "value": 47
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/horse.json"
+        },
+        "minecraft:type_family": {
+          "family": [
+            "horse",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 1.4,
+          "height": 1.6
+        },
+        "minecraft:health": {
+          "value": {
+            "range_min": 15,
+            "range_max": 30
+          }
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": {
+            "range_min": 0.1125,
+            "range_max": 0.3375
+          }
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:horse.jump_strength": {
+          "value": {
+            "range_min": 0.4,
+            "range_max": 1.0
+          }
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:mooshroom": {
+        "minecraft:variant": {
+          "value": 48
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/mooshroom.json"
+        },
+        "minecraft:type_family": {
+          "family": [
+            "mushroomcow",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.9,
+          "height": 1.3
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {},
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "zombie"
+          ],
+          "seats": {
+            "position": [
+              0.0,
+              1.105,
+              0.0
+            ]
+          }
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:mule": {
+        "minecraft:variant": {
+          "value": 49
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/horse.json"
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 1.4,
+          "height": 1.6
+        },
+        "minecraft:health": {
+          "value": {
+            "range_min": 15,
+            "range_max": 30
+          }
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.175
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:nameable": {},
+        "minecraft:horse.jump_strength": {
+          "value": 0.5
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:ocelot": {
+        "minecraft:variant": {
+          "value": 50
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/ocelot.json"
+        },
+        "minecraft:scale": {
+          "value": 1
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:attack_damage": {
+          "value": 4
+        },
+        "minecraft:type_family": {
+          "family": [
+            "ocelot",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 0.7
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0,
+          "on_leash": {
+            "event": "minecraft:on_leash",
+            "target": "self"
+          },
+          "on_unleash": {
+            "event": "minecraft:on_unleash",
+            "target": "self"
+          }
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:parrot": {
+        "minecraft:variant": {
+          "value": 51
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/parrot.json"
+        },
+        "minecraft:type_family": {
+          "family": [
+            "parrot_wild",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.5,
+          "height": 1
+        },
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.4
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:jump.static": {},
+        "minecraft:can_fly": {},
+        "minecraft:movement.fly": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:pig": {
+        "minecraft:variant": {
+          "value": 52
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/pig.json"
+        },
+        "minecraft:type_family": {
+          "family": [
+            "pig",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:collision_box": {
+          "width": 0.9,
+          "height": 0.9
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {
+          "mass": 0.75
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:pufferfish": {
+        "minecraft:variant": {
+          "value": 53
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "pufferfish",
+            "fish"
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.8,
+          "height": 0.8
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/pufferfish.json"
+        },
+        "minecraft:scale": {
+          "value": 1.2
+        },
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0,
+          "breathes_air": false,
+          "breathes_water": true
+        },
+        "minecraft:movement": {
+          "value": 0.13
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.13
+        },
+        "minecraft:movement.sway": {
+          "sway_amplitude": 0.0
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        }
+      },
+      "cda002:rabbit": {
+        "minecraft:variant": {
+          "value": 54
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/rabbit.json"
+        },
+        "minecraft:scale": {
+          "value": 0.6
+        },
+        "minecraft:type_family": {
+          "family": [
+            "rabbit",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:health": {
+          "value": 3,
+          "max": 3
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.67,
+          "height": 0.67
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:movement.skip": {},
+        "minecraft:jump.dynamic": {},
+        "minecraft:can_climb": {},
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {
+          "mass": 0.4
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:salmon": {
+        "minecraft:variant": {
+          "value": 55
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        },
+        "minecraft:type_family": {
+          "family": [
+            "salmon",
+            "fish"
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.5,
+          "height": 0.5
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0,
+          "breathes_air": false,
+          "breathes_water": true
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.12
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.12
+        },
+        "minecraft:movement.sway": {
+          "sway_amplitude": 0.0
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        }
+      },
+      "cda002:sheep": {
+        "minecraft:variant": {
+          "value": 56
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "sheep",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.9,
+          "height": 1.3
+        },
+        "minecraft:health": {
+          "value": 8,
+          "max": 8
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {
+          "mass": 0.75
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:skeleton_horse": {
+        "minecraft:variant": {
+          "value": 57
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/skeleton_horse.json"
+        },
+        "minecraft:collision_box": {
+          "width": 1.4,
+          "height": 1.6
+        },
+        "minecraft:type_family": {
+          "family": [
+            "skeletonhorse",
+            "undead",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0,
+          "breathes_water": true
+        },
+        "minecraft:health": {
+          "value": 15,
+          "max": 15
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.2
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.08
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:horse.jump_strength": {
+          "value": {
+            "range_min": 0.4,
+            "range_max": 1.0
+          }
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "player",
+            "skeleton",
+            "zombie"
+          ],
+          "interact_text": "action.interact.ride.horse",
+          "seats": {
+            "position": [
+              0.0,
+              1.2,
+              -0.2
+            ]
+          }
+        },
+        "minecraft:input_ground_controlled": {},
+        "minecraft:can_power_jump": {},
+        "minecraft:balloonable": {},
+        "minecraft:is_tamed": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        }
+      },
+      "cda002:snow_golem": {
+        "minecraft:variant": {
+          "value": 58
+        },
+        "minecraft:mark_variant": {
+          "value": 7
+        },
+        "minecraft:type_family": {
+          "family": [
+            "snowgolem",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:collision_box": {
+          "width": 0.4,
+          "height": 1.8
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/snowman.json"
+        },
+        "minecraft:health": {
+          "value": 4,
+          "max": 4
+        },
+        "minecraft:movement": {
+          "value": 0.2
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:attack": {
+          "damage": 2
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            },
+            {
+              "filters": {
+                "test": "is_temperature_value",
+                "operator": ">",
+                "value": 1.0
+              },
+              "cause": "temperature",
+              "damage_per_tick": 1
+            },
+            {
+              "filters": {
+                "test": "in_water_or_rain",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "drowning",
+              "damage_per_tick": 1
+            }
+          ]
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:balloonable": {},
+        "minecraft:shooter": {
+          "def": "minecraft:snowball"
+        },
+        "minecraft:trail": {
+          "block_type": "minecraft:snow_layer",
+          "spawn_filter": {
+            "test": "is_temperature_value",
+            "operator": "<",
+            "value": 0.81
+          }
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:squid": {
+        "minecraft:variant": {
+          "value": 59
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "squid",
+            "mob"
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.95,
+          "height": 0.95
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/squid.json"
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0,
+          "breathes_air": false,
+          "breathes_water": true
+        },
+        "minecraft:movement": {
+          "value": 0.2
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:strider": {
+        "minecraft:variant": {
+          "value": 60
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "strider",
+            "strider_adult",
+            "mob"
+          ]
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/strider.json"
+        },
+        "minecraft:collision_box": {
+          "width": 0.9,
+          "height": 1.7
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_water_or_rain",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "drowning",
+              "damage_per_tick": 1
+            }
+          ]
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+        "minecraft:movement": {
+          "value": 0.16
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:physics": {},
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:tropical_fish": {
+        "minecraft:variant": {
+          "value": 61
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "tropicalfish",
+            "fish"
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.4,
+          "height": 0.4
+        },
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/tropicalfish.json"
+        },
+        "minecraft:scale": {
+          "value": 1.3
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0,
+          "breathes_air": false,
+          "breathes_water": true
+        },
+        "minecraft:movement": {
+          "value": 0.12
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.12
+        },
+        "minecraft:movement.sway": {
+          "sway_amplitude": 0.0
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        }
+      },
+      "cda002:turtle": {
+        "minecraft:variant": {
+          "value": 62
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "turtle",
+            "mob"
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 1.2,
+          "height": 0.4
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.12
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/sea_turtle.json"
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0,
+          "breathes_water": true,
+          "breathes_air": true,
+          "generates_bubbles": false
+        },
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "lightning",
+            "deals_damage": true,
+            "damage_multiplier": 2000.0
+          }
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:water_movement": {
+          "drag_factor": 0.9
+        },
+        "minecraft:movement.amphibious": {
+          "max_turn": 5.0
+        },
+        "minecraft:jump.static": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        }
+      },
+      "cda002:villager": {
+        "minecraft:variant": {
+          "value": 63
+        },
+        "minecraft:mark_variant": {
+          "value": 8
+        },
+        "minecraft:type_family": {
+          "family": [
+            "villager",
+            "mob"
+          ]
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 1.9
+        },
+        "minecraft:movement": {
+          "value": 0.5
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:wandering_trader": {
+        "minecraft:variant": {
+          "value": 64
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "wandering_trader",
+            "mob"
+          ]
+        },
+        "minecraft:is_hidden_when_invisible": {},
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:hurt_on_condition": {
+          "damage_conditions": [
+            {
+              "filters": {
+                "test": "in_lava",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              },
+              "cause": "lava",
+              "damage_per_tick": 4
+            }
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 1.9
+        },
+        "minecraft:movement": {
+          "value": 0.5
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:ender_dragon": {
+        "minecraft:variant": {
+          "value": 65
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:type_family": {
+          "family": [
+            "dragon",
+            "mob"
+          ]
+        },
+        "minecraft:health": {
+          "value": 200,
+          "max": 200
+        },
+        "minecraft:boss": {
+          "should_darken_sky": false,
+          "hud_range": 125
+        },
+        "minecraft:collision_box": {
+          "width": 13,
+          "height": 4
+        },
+        "minecraft:movement": {
+          "value": 0.3
+        },
+        "minecraft:knockback_resistance": {
+          "value": 100,
+          "max": 100
+        },
+        "minecraft:flying_speed": {
+          "value": 0.6
+        },
+        "minecraft:attack": {
+          "damage": 3
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:physics": {
+          "has_gravity": true,
+          "has_collision": false
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:wither": {
+        "minecraft:variant": {
+          "value": 66
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:boss": {
+          "should_darken_sky": true,
+          "hud_range": 55
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "on_damage": {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "undead"
+              }
+            },
+            "deals_damage": false
+          }
+        },
+        "minecraft:health": {
+          "value": 600,
+          "max": 600
+        },
+        "minecraft:collision_box": {
+          "width": 1,
+          "height": 3
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wither_boss.json"
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:movement.basic": {
+          "max_turn": 180.0
+        },
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {},
+        "minecraft:can_fly": {},
+        "minecraft:type_family": {
+          "family": [
+            "wither",
+            "skeleton",
+            "monster",
+            "undead",
+            "mob"
+          ]
+        },
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:agent": {
+        "minecraft:variant": {
+          "value": 67
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "all",
+            "deals_damage": false
+          }
+        },
+        "minecraft:scale": {
+            "value":1.0
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 0.93
+        },
+        "minecraft:movement": {
+          "value": 1,
+          "max": 1
+        },
+        "minecraft:physics": {
+        },
+        "minecraft:pushable": {
+          "is_pushable": false,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        }
+      },
+      "cda002:npc": {
+        "minecraft:variant": {
+          "value": 68
+        },
+        "minecraft:mark_variant": {
+          "value": -1
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "all",
+            "deals_damage": false
+          }
+        },
+        "minecraft:type_family": {
+          "family": [ "npc", "mob" ]
+        },
+        "minecraft:movement": {
+          "value": 0.5
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/empty.json"
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 2.1
+        },
+        "minecraft:physics": {
+        },
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
         }
       }
     },
@@ -1947,7 +4779,48 @@
             "cda002:wither_skeleton",
             "cda002:zoglin",
             "cda002:zombie",
-            "cda002:zombie_villager"
+            "cda002:zombie_villager",
+            "cda002:bee",
+            "cda002:cave_spider",
+            "cda002:dolphin",
+            "cda002:enderman",
+            "cda002:iron_golem",
+            "cda002:llama",
+            "cda002:piglin",
+            "cda002:panda",
+            "cda002:polar_bear",
+            "cda002:spider",
+            "cda002:wolf",
+            "cda002:zombified_piglin",
+            "cda002:bat",
+            "cda002:cat",
+            "cda002:chicken",
+            "cda002:cod",
+            "cda002:cow",
+            "cda002:donkey",
+            "cda002:fox",
+            "cda002:horse",
+            "cda002:mooshroom",
+            "cda002:mule",
+            "cda002:ocelot",
+            "cda002:parrot",
+            "cda002:pig",
+            "cda002:pufferfish",
+            "cda002:rabbit",
+            "cda002:salmon",
+            "cda002:sheep",
+            "cda002:skeleton_horse",
+            "cda002:snow_golem",
+            "cda002:squid",
+            "cda002:strider",
+            "cda002:tropical_fish",
+            "cda002:turtle",
+            "cda002:villager",
+            "cda002:wandering_trader",
+            "cda002:ender_dragon",
+            "cda002:wither",
+            "cda002:agent",
+            "cda002:npc"
           ]
         },
         "add": {
@@ -2149,6 +5022,293 @@
         "add": {
           "component_groups": [
             "cda002:zombie_villager"
+          ]
+        }
+      },
+      "cda002:bee": {
+        "add": {
+          "component_groups": [
+            "cda002:bee"
+          ]
+        }
+      },
+      "cda002:cave_spider": {
+        "add": {
+          "component_groups": [
+            "cda002:cave_spider"
+          ]
+        }
+      },
+      "cda002:dolphin": {
+        "add": {
+          "component_groups": [
+            "cda002:dolphin"
+          ]
+        }
+      },
+      "cda002:enderman": {
+        "add": {
+          "component_groups": [
+            "cda002:enderman"
+          ]
+        }
+      },
+      "cda002:iron_golem": {
+        "add": {
+          "component_groups": [
+            "cda002:iron_golem"
+          ]
+        }
+      },
+      "cda002:llama": {
+        "add": {
+          "component_groups": [
+            "cda002:llama"
+          ]
+        }
+      },
+      "cda002:piglin": {
+        "add": {
+          "component_groups": [
+            "cda002:piglin"
+          ]
+        }
+      },
+      "cda002:panda": {
+        "add": {
+          "component_groups": [
+            "cda002:panda"
+          ]
+        }
+      },
+      "cda002:polar_bear": {
+        "add": {
+          "component_groups": [
+            "cda002:polar_bear"
+          ]
+        }
+      },
+      "cda002:spider": {
+        "add": {
+          "component_groups": [
+            "cda002:spider"
+          ]
+        }
+      },
+      "cda002:wolf": {
+        "add": {
+          "component_groups": [
+            "cda002:wolf"
+          ]
+        }
+      },
+      "cda002:zombified_piglin": {
+        "add": {
+          "component_groups": [
+            "cda002:zombified_piglin"
+          ]
+        }
+      },
+      "cda002:bat": {
+        "add": {
+          "component_groups": [
+            "cda002:bat"
+          ]
+        }
+      },
+      "cda002:cat": {
+        "add": {
+          "component_groups": [
+            "cda002:cat"
+          ]
+        }
+      },
+      "cda002:chicken": {
+        "add": {
+          "component_groups": [
+            "cda002:chicken"
+          ]
+        }
+      },
+      "cda002:cod": {
+        "add": {
+          "component_groups": [
+            "cda002:cod"
+          ]
+        }
+      },
+      "cda002:cow": {
+        "add": {
+          "component_groups": [
+            "cda002:cow"
+          ]
+        }
+      },
+      "cda002:donkey": {
+        "add": {
+          "component_groups": [
+            "cda002:donkey"
+          ]
+        }
+      },
+      "cda002:fox": {
+        "add": {
+          "component_groups": [
+            "cda002:fox"
+          ]
+        }
+      },
+      "cda002:horse": {
+        "add": {
+          "component_groups": [
+            "cda002:horse"
+          ]
+        }
+      },
+      "cda002:mooshroom": {
+        "add": {
+          "component_groups": [
+            "cda002:mooshroom"
+          ]
+        }
+      },
+      "cda002:mule": {
+        "add": {
+          "component_groups": [
+            "cda002:mule"
+          ]
+        }
+      },
+      "cda002:ocelot": {
+        "add": {
+          "component_groups": [
+            "cda002:ocelot"
+          ]
+        }
+      },
+      "cda002:parrot": {
+        "add": {
+          "component_groups": [
+            "cda002:parrot"
+          ]
+        }
+      },
+      "cda002:pig": {
+        "add": {
+          "component_groups": [
+            "cda002:pig"
+          ]
+        }
+      },
+      "cda002:pufferfish": {
+        "add": {
+          "component_groups": [
+            "cda002:pufferfish"
+          ]
+        }
+      },
+      "cda002:rabbit": {
+        "add": {
+          "component_groups": [
+            "cda002:rabbit"
+          ]
+        }
+      },
+      "cda002:salmon": {
+        "add": {
+          "component_groups": [
+            "cda002:salmon"
+          ]
+        }
+      },
+      "cda002:sheep": {
+        "add": {
+          "component_groups": [
+            "cda002:sheep"
+          ]
+        }
+      },
+      "cda002:skeleton_horse": {
+        "add": {
+          "component_groups": [
+            "cda002:skeleton_horse"
+          ]
+        }
+      },
+      "cda002:snow_golem": {
+        "add": {
+          "component_groups": [
+            "cda002:snow_golem"
+          ]
+        }
+      },
+      "cda002:squid": {
+        "add": {
+          "component_groups": [
+            "cda002:squid"
+          ]
+        }
+      },
+      "cda002:strider": {
+        "add": {
+          "component_groups": [
+            "cda002:strider"
+          ]
+        }
+      },
+      "cda002:tropical_fish": {
+        "add": {
+          "component_groups": [
+            "cda002:tropical_fish"
+          ]
+        }
+      },
+      "cda002:turtle": {
+        "add": {
+          "component_groups": [
+            "cda002:turtle"
+          ]
+        }
+      },
+      "cda002:villager": {
+        "add": {
+          "component_groups": [
+            "cda002:villager"
+          ]
+        }
+      },
+      "cda002:wandering_trader": {
+        "add": {
+          "component_groups": [
+            "cda002:wandering_trader"
+          ]
+        }
+      },
+      "cda002:ender_dragon": {
+        "add": {
+          "component_groups": [
+            "cda002:ender_dragon"
+          ]
+        }
+      },
+      "cda002:wither": {
+        "add": {
+          "component_groups": [
+            "cda002:wither"
+          ]
+        }
+      },
+      "cda002:agent": {
+        "add": {
+          "component_groups": [
+            "cda002:agent"
+          ]
+        }
+      },
+      "cda002:npc": {
+        "add": {
+          "component_groups": [
+            "cda002:npc"
           ]
         }
       },
