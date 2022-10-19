@@ -895,6 +895,78 @@
 				{ "hat": true },
 				{ "helmet": true }
 			]
+		},
+		"controller.render.cda002.player.iron_golem.first_person": {
+			"arrays": {
+				"textures": {
+					"Array.cracks": [
+						"Texture.cda002_iron_golem_cracked_high",
+						"Texture.cda002_iron_golem_cracked_med",
+						"Texture.cda002_iron_golem_cracked_low",
+						"Texture.cda002_iron_golem_cracked_none"
+					]
+				}
+			},
+			"geometry": "Geometry.cda002_iron_golem",
+			"materials": [{ "*": "Material.cda002_iron_golem" }],
+			"textures": [ "Array.cracks[math.clamp(q.health / 25, 0, 3)]" ],
+			"part_visibility": [
+				{ "*": false },
+				{ "rightArm": "q.get_equipped_item_name(0, 1) == '' || q.get_equipped_item_name(0, 1) == 'map'" },
+				{ "rightSleeve": "q.get_equipped_item_name(0, 1) == '' || q.get_equipped_item_name(0, 1) == 'map'" },
+				{ "leftArm": "(q.get_equipped_item_name(0, 1) == 'map' && q.get_equipped_item_name('off_hand') != 'shield') || (q.get_equipped_item_name('off_hand') == 'map' && !q.item_is_charged) || (!q.item_is_charged && (v.item_use_normalized > 0 && v.item_use_normalized < 1.0))" },
+				{ "leftSleeve": "(q.get_equipped_item_name(0, 1) == 'map' && q.get_equipped_item_name('off_hand') != 'shield') || (q.get_equipped_item_name('off_hand') == 'map' && !q.item_is_charged) || (!q.item_is_charged && (v.item_use_normalized > 0 && v.item_use_normalized < 1.0))" }
+			]
+		},
+		"controller.render.cda002.player.iron_golem.third_person": {
+			"arrays": {
+				"textures": {
+					"Array.cracks": [
+						"Texture.cda002_iron_golem_cracked_high",
+						"Texture.cda002_iron_golem_cracked_med",
+						"Texture.cda002_iron_golem_cracked_low",
+						"Texture.cda002_iron_golem_cracked_none"
+					]
+				}
+			},
+			"geometry": "Geometry.cda002_iron_golem",
+			"materials": [{ "*": "Material.cda002_iron_golem" }],
+			"textures": [ "Array.cracks[math.clamp(q.health / 25, 0, 3)]" ],
+			"part_visibility": [
+				{ "*": true },
+				{ "helmet": "v.helmet_layer_visible" },
+				{ "leftLegging": "v.leg_layer_visible" },
+				{ "rightLegging": "v.leg_layer_visible" },
+				{ "leftBoot": "v.boot_layer_visible" },
+				{ "rightBoot": "v.boot_layer_visible" },
+				{ "leftSock": "v.boot_layer_visible && v.leg_layer_visible" },
+				{ "rightSock": "v.boot_layer_visible && v.leg_layer_visible" },
+				{ "bodyArmor": "v.chest_layer_visible && !q.has_cape" },
+				{ "leftArmArmor": "v.chest_layer_visible && !q.has_cape" },
+				{ "rightArmArmor": "v.chest_layer_visible && !q.has_cape" },
+				{ "belt": "v.chest_layer_visible && v.leg_layer_visible" }
+			]
+		},
+		"controller.render.cda002.player.iron_golem.map": {
+			"arrays": {
+				"textures": {
+					"Array.cracks": [
+						"Texture.cda002_iron_golem_cracked_high",
+						"Texture.cda002_iron_golem_cracked_med",
+						"Texture.cda002_iron_golem_cracked_low",
+						"Texture.cda002_iron_golem_cracked_none"
+					]
+				}
+			},
+			"geometry": "Geometry.cda002_iron_golem",
+			"materials": [{ "*": "Material.cda002_iron_golem" }],
+			"textures": [ "Array.cracks[math.clamp(q.health / 25, 0, 3)]" ],
+			"part_visibility": [
+				{ "*": false },
+				{ "head": true },
+				{ "hat": true },
+				{ "helmet": true }
+			]
 		}
 	}
 }

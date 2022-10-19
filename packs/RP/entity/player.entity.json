@@ -123,6 +123,10 @@
 				"cda002_dolphin": "textures/entity/dolphin",
 				"cda002_enderman": "textures/entity/enderman/enderman",
 				"cda002_iron_golem": "textures/entity/iron_golem",
+				"cda002_iron_golem_cracked_high": "textures/entity/iron_golem/cracked_high",
+				"cda002_iron_golem_cracked_med": "textures/entity/iron_golem/cracked_medium",
+				"cda002_iron_golem_cracked_low": "textures/entity/iron_golem/cracked_low",
+				"cda002_iron_golem_cracked_none": "textures/entity/iron_golem/cracked_none",
 				"cda002_llama": "textures/entity/llama/llama_creamy",
 				"cda002_llama_decor_none": "textures/entity/llama/decor/decor_none",
 				"cda002_piglin": "textures/entity/piglin/piglin",
@@ -713,7 +717,7 @@
 				"sleeping": "animation.player.sleeping",
 				"first_person_base_pose": "animation.player.first_person.base_pose",
 				"first_person_empty_hand": "animation.player.first_person.empty_hand",
-				"first_person_swap_item": "animation.player.first_person.swap_item",
+				"first_person_swap_item": "animation.player.first_person.swap_item","first_person_shield_block": "animation.player.first_person.shield_block",
 				"first_person_attack_controller": "q.variant == 0 ? controller.animation.player.first_person_attack",
 				"first_person_attack_rotation": "animation.player.first_person.attack_rotation",
 				"first_person_vr_attack_rotation": "animation.player.first_person.vr_attack_rotation",
@@ -936,7 +940,10 @@
 				{ "controller.render.player.map": "v.map_face_icon" },
 				{ "controller.render.cda002.player.layer2.first_person": "v.is_first_person && q.mark_variant != -1" },
 				{ "controller.render.cda002.player.layer2.third_person": "!v.is_first_person && !v.map_face_icon && q.mark_variant != -1" },
-				{ "controller.render.cda002.player.layer2.map": "v.map_face_icon && q.mark_variant != -1" }
+				{ "controller.render.cda002.player.layer2.map": "v.map_face_icon && q.mark_variant != -1" },
+				{ "controller.render.cda002.player.iron_golem.first_person": "v.is_first_person && q.variant == 32" },
+				{ "controller.render.cda002.player.iron_golem.third_person": "!v.is_first_person && !v.map_face_icon && q.variant == 32" },
+				{ "controller.render.cda002.player.iron_golem.map": "v.map_face_icon && q.variant == 32" }
 			],
 			"enable_attachables": true
 		}

@@ -2,7 +2,7 @@ Notice: It is possible that some mobs may break worlds. Use with caution, an ext
 
 Cda's Morph Add-on brings you the morph mod from Java Edition over to Bedrock Edition.
 
-THIS ADD-ON IS IN ALPHA AND MAY BE BUGGY
+THIS ADD-ON IS IN BETA AND MAY BE BUGGY
 
 Please also note this add-on modifies the Vanilla Player Files, which means
 many packs will not be compatible with this
@@ -33,6 +33,28 @@ Known Issues - https://github.com/cda94581/Community_Collabs/issues?q=is%3Aopen+
 If you would like to help report issues, suggest features, and more, head over to https://github.com/cda94581/Community_Collabs/tree/main/Add-ons/Cda's%20Morph to see what you can do!
 
 Changelog
+v0.1.0 - 2022/03/19 (YYYY/MM/DD)
+Updated Properly for 1.18.10
+Added Iron Golem Cracking
+
+Welcome to Beta!
+
+Developer Message:
+Hey everyone!
+It's been a fun year. Over the last 365 of this pack's lifetime, the pack has attained over 260 THOUSAND downloads from the Mediafire links! That was completely unexpected. Anyway, I want to update you a bit about the future of this add-on.
+With the release of Cda's Morph Beta 0.1.0, I feel like there are so many parts overall that have accumulated to me being unhappy with the project overall. Therefore, I want to make a compromise and a deal. For the next few months, this will be the last update.
+I get what this means. The pack will likely not be updating for the next few updates, and so may fall outdated. It may still *work*, but unfortunately it may not work as properly as it should. Additionally, with the 1.19 Wild Update creeping up, this means that the new mobs such as Frogs, Tadpoles, and the Warden will not be implemented.
+
+Why am I halting?
+Simply put, this project has ended up somewhere I am not happy with. So many workarounds, bugs, issues, etc. Even from its first release, the project was rushed. Over time, I ended up sacrificing quality for quantity. Mob abilities were never implemented properly, and so many mobs had issues with themselves. So, I have a new plan.
+
+I'm technically not halting.
+You just aren't seeing it. Over the last year, a plethora of new features have made their way into Minecraft. With these features, I plan to completely revamp Morph. The items and subpacks, which caused TONS of issues, will be no more. It will also end up more similar to its Java counterpart. But it takes time.
+It's why there likely won't be any more updates. I want to dedicate all my time spent developing Morph, on this single revamp.
+
+Thank you for enjoying Cda's Morph for a year, and I hope you all have another great day.
+-cda
+---
 v0.0.8 - 2021/12/24 (YYYY/MM/DD)
 Updated Properly for 1.18.0
 Added Loot Tables for the following mobs (#13):

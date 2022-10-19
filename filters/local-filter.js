@@ -12,62 +12,31 @@ Morphing will have bugs; please report any and all bugs.
 
 If you have issues, contact me at the links found in the description of https://mcpedl.com/cdas-morph/ Spamming angry emojis doesn't help me help you. Before you say something along the lines of "Please add..." on a place other than MCPEDL, again, contact me at the links found at the website above. I can't help you on MCPE Add-ons, I can't help you on whatever other weird website this has popped up to. I can only help you on MCPEDL and the links I posted in the description.
 
-§lChangelog v0.0.8§
-v0.0.8 - 2021/12/24 (YYYY/MM/DD)
-Updated Properly for 1.18.0
-Added Loot Tables for the following mobs (#13):
-	Axolotl
-	Bat
-	Ender Dragon (as WIP)
-	NPC
-	Villager
-	Wandering Trader
-Added Recipes for the following mobs (#85):
-	Agent - Dirt
-	Axolotl - Water Bucket
-	Bat - Stone
-	Cat - String
-	Cave Spider - Spider Eye
-	Chicken - Feather
-	Cod - Cod
-	Cow - Leather
-	Dolphin - Cod
-	Donkey - Leather
-	Ender Dragon - Dragon Egg (You'll get it back) - Unavailable ATM
-	Enderman - Ender Pearl
-	Fox - Sweet Berry
-	Glow Squid - Glow Ink Sac
-	Goat - Stone (Temporary)
-	Horse - Leather
-	Iron Golem - Iron Ingot
-	Llama - Leather
-	Mooshroom - Leather
-	Mule - Leather
-	NPC - Dirt
-	Ocelot - String
-	Panda - Bamboo
-	Parrot - Feather
-	Pig - Porkchop
-	Piglin - Gold Nugget
-	Polar Bear - Cod
-	Pufferfish - Pufferfish
-	Rabbit - Rabbit Hide
-	Salmon - Salmon
-	Sheep - Wool
-	Skeleton Horse - Bone
-	Snow Golem - Snowball
-	Spider - Spider Eye
-	Squid - Ink Sac
-	Strider - String
-	Tropical Fish - Tropical Fish
-	Turtle - Seagrass
-	Villager - Emerald
-	Wandering Trader - Emerald
-	Wither - Nether Star (You'll get it back)
-	Zombified Piglin - Gold Nugget`;
-	const name = 'Cda\'s Morph v0.0.8';
-	const version = [ 0, 0, 8 ];
-	const minV = [ 1, 18, 0 ];
+§lChangelog v0.1.0§
+v0.1.0 - 2022/03/19 (YYYY/MM/DD)
+Updated Properly for 1.18.10
+Added Iron Golem Cracking
+
+Welcome to Beta!
+
+Developer Message:
+Hey everyone!
+It's been a fun year. Over the last 365 of this pack's lifetime, the pack has attained over 260 THOUSAND downloads from the Mediafire links! That was completely unexpected. Anyway, I want to update you a bit about the future of this add-on.
+With the release of Cda's Morph Beta 0.1.0, I feel like there are so many parts overall that have accumulated to me being unhappy with the project overall. Therefore, I want to make a compromise and a deal. For the next few months, this will be the last update.
+I get what this means. The pack will likely not be updating for the next few updates, and so may fall outdated. It may still *work*, but unfortunately it may not work as properly as it should. Additionally, with the 1.19 Wild Update creeping up, this means that the new mobs such as Frogs, Tadpoles, and the Warden will not be implemented.
+
+Why am I halting?
+Simply put, this project has ended up somewhere I am not happy with. So many workarounds, bugs, issues, etc. Even from its first release, the project was rushed. Over time, I ended up sacrificing quality for quantity. Mob abilities were never implemented properly, and so many mobs had issues with themselves. So, I have a new plan.
+
+I'm technically not halting.
+You just aren't seeing it. Over the last year, a plethora of new features have made their way into Minecraft. With these features, I plan to completely revamp Morph. The items and subpacks, which caused TONS of issues, will be no more. It will also end up more similar to its Java counterpart. But it takes time.
+It's why there likely won't be any more updates. I want to dedicate all my time spent developing Morph, on this single revamp.
+
+Thank you for enjoying Cda's Morph for a year, and I hope you all have another great day.
+-cda`;
+	const name = 'Cda\'s Morph v0.1.0';
+	const version = [ 0, 1, 0 ];
+	const minV = [ 1, 18, 10 ];
 	const meta = {
 		authors: [ 'cda94581' ],
 		license: 'CC-BY-SA-4.0',

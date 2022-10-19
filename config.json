@@ -1,56 +1,89 @@
 {
-  "name": "cdas_morph_0.0.8",
   "author": "cda94581",
+  "name": "cdas_morph_0.1.0",
   "packs": {
     "behaviorPack": "./packs/BP",
     "resourcePack": "./packs/RP"
   },
   "regolith": {
+    "dataPath": "./packs/data",
+    "filterDefinitions": {
+      "export": {
+        "url": "github.com/cda94581/regolith-filters",
+        "version": "0.0.2"
+      },
+      "minimize": {
+        "url": "github.com/cda94581/regolith-filters",
+        "version": "0.0.2"
+      },
+      "texture_list": {
+        "version": "662c74bba7a7764d14862d0d66bd6058fc99c222"
+      },
+      "local-filter": {
+        "runWith": "nodejs",
+        "script": "./filters/local-filter.js"
+      }
+    },
     "profiles": {
       "dev": {
-        "unsafe": false,
+        "dataPath": "./packs/data",
+        "export": {
+          "readOnly": true,
+          "target": "development"
+        },
         "filters": [
           {
-            "runWith": "nodejs",
-            "script": "./filters/local-filter.js",
-            "name": "Running Local Filter"
+            "name": "Running Local Filter",
+            "filter": "local-filter"
           },
-          { "filter": "texture_list" },
-          { "url": "github.com/cda94581/regolith-filters/minimize" }
+          {
+            "filter": "texture_list"
+          },
+          {
+            "filter": "minimize"
+          }
         ],
-        "export": {
-          "target": "development",
-          "readOnly": false
-        },
-        "dataPath": "./packs/data"
+        "unsafe": false
       },
       "export": {
-        "unsafe": true,
+        "dataPath": "./packs/data",
+        "export": {
+          "readOnly": true,
+          "target": "local"
+        },
         "filters": [
           {
-            "runWith": "nodejs",
-            "script": "./filters/local-filter.js",
-            "name": "Running Local Filter"
+            "name": "Running Local Filter",
+            "filter": "local-filter"
           },
-          { "filter": "texture_list" },
-          { "url": "github.com/cda94581/regolith-filters/minimize" },
-          { "url": "github.com/cda94581/regolith-filters/export" }
+          {
+            "filter": "texture_list"
+          },
+          {
+            "filter": "minimize"
+          },
+          {
+            "filter": "export"
+          }
         ],
-        "export": { "target": "local" },
-        "dataPath": "./packs/data"
+        "unsafe": false
       },
       "no-mini": {
-        "unsafe": true,
+        "dataPath": "./packs/data",
+        "export": {
+          "readOnly": true,
+          "target": "local"
+        },
         "filters": [
           {
-            "runWith": "nodejs",
-            "script": "./filters/local-filter.js",
-            "name": "Running Local Filter"
+            "name": "Running Local Filter",
+            "filter": "local-filter"
           },
-          { "filter": "texture_list" }
+          {
+            "filter": "texture_list"
+          }
         ],
-        "export": { "target": "local" },
-        "dataPath": "./packs/data"
+        "unsafe": false
       }
     }
   }
